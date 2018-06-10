@@ -1,0 +1,121 @@
+//
+//  PrefixHeader.pch
+//  LOVOL
+//
+//  Created by andyXu on 2018/4/24.
+//  Copyright © 2018年 AndyXu. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "MJRefresh.h"
+#import "Masonry.h"
+#import <IQUIView+IQKeyboardToolbar.h>
+#import "RDVTabBarController.h"
+#import "RDVTabBarItem.h"
+#import "UITableViewCell+HYBMasonryAutoCellHeight.h"
+#import "Masonry/View+MASAdditions.h"
+#import "MyController.h"
+#import "RegularExpressions.h"
+#import "HUD.h"
+#import "ImagePickerSheetViewController.h"
+#import "LFAssetManager.h"
+#import "LFImagePickerController.h"
+#import "XRQJPush.h"
+#import <ZLPhotoActionSheet.h>
+#import "MJExtension.h"
+#import <Foundation/Foundation.h>
+#define DEMO_CALL 1
+#import "JPUSHService.h"
+#ifdef NSFoundationVersionNumber_iOS_9_x_Max
+#import <UserNotifications/UserNotifications.h>
+#endif
+#import "MWPhotoBrowser.h"
+#import "HMSegmentedControl.h"
+#import "UIView+Extension.h"
+#import "JPUSHService.h"
+#import "AppDelegate.h"
+#import "AppDelegate+AppService.h"
+#import "CycleScrollView.h"
+#import "requestURL.h"
+#import "requestService.h"
+#import <SDWebImage/UIImageView+WebCache.h>
+#import "RootViewController.h"
+#import "UtilsMacros.h"
+#import "GBTagListView.h"
+#import <MAMapKit/MAMapKit.h>
+#import <AMapSearchKit/AMapSearchKit.h>
+#import <AMapFoundationKit/AMapFoundationKit.h>
+#import <AMapLocationKit/AMapLocationKit.h>
+#import <YYKit.h>
+#import "MHDatePicker.h"
+#import "PPNetworkHelper.h"
+#import "iOS-Echarts.h"
+#import <AipOcrSdk/AipOcrSdk.h>
+#import "LYSSlideMenuController.h"
+#import "UIView+LLXAlertPop.h"
+
+#define MAPKEY @"b87ffbeb5b383508d46bab7028184f2e"
+#define BAIDUAPIKEY @"tqpyQSXSWlLo08Yrnu5F1ipi"
+#define BAIDUSECRETKEY @"kcmQAuNxi36YoAVq5VbkXYA4a2ofpavb"
+#pragma mark -  间距区
+//默认间距
+#define KNormalSpace 10.0f
+
+#define K15NormalSpace 15.0f
+
+#define K20NormalSpace 20.0f
+
+#pragma mark -  颜色区
+//主题色 导航栏颜色
+#define CNavBgColor  @"2e82ff"
+
+#define CNavBgFontColor @"ffffff"
+
+#define CYellowColor  @"f1a413"
+
+#define CDefaultColor  @"ffffff"
+
+//默认页面背景色
+#define CViewF5Color @"f5f5f5"
+
+//分割线颜色
+#define CLineColor @"edeeef"
+
+//title级字色
+#define CFontColor0 @"2a2a2a"
+
+//主级字色
+#define CFontColor0 @"2a2a2a"
+
+//次级字色
+#define CFontColor1 @"1f1f1f"
+
+//再次级字色
+#define CFontColor2 @"5c5c5c"
+
+//1级字号
+#define CFontSize1 16.0f
+
+#define CFontSize2 14.0f
+
+#endif /* PrefixHeader_pch */
+
+
+
+
+/*
+ 
+ shunyu.liu@banck.com.cn
+ Banck20160106
+ 
+ */
