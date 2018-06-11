@@ -15,11 +15,8 @@
 		EC08605220C443E2007504D9 /* 人脸识别@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC08605120C443E2007504D9 /* 人脸识别@2x.png */; };
 		EC0D561220C3DFFB00D3A3E9 /* AboutUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0D561120C3DFFB00D3A3E9 /* AboutUsViewController.m */; };
 		EC0D561620C3E08C00D3A3E9 /* ResetPassWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0D561520C3E08C00D3A3E9 /* ResetPassWordViewController.m */; };
-		EC0D561E20C3E88500D3A3E9 /* GuarantorListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0D561D20C3E88500D3A3E9 /* GuarantorListViewController.m */; };
 		EC0D562220C3EC3800D3A3E9 /* GuarantorListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0D562120C3EC3800D3A3E9 /* GuarantorListModel.m */; };
 		EC0D562620C3ECC700D3A3E9 /* GuarantorListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0D562520C3ECC700D3A3E9 /* GuarantorListTableViewCell.m */; };
-		EC0D563320C4128400D3A3E9 /* ZXAgriculturalMachineryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0D563220C4128400D3A3E9 /* ZXAgriculturalMachineryViewController.m */; };
-		EC0D563620C4129F00D3A3E9 /* ZXConstructionMachineryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0D563520C4129F00D3A3E9 /* ZXConstructionMachineryViewController.m */; };
 		ECC4AE7020CD14D2002BD906 /* BusinessAccountIndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC4AE6F20CD14D2002BD906 /* BusinessAccountIndexViewController.m */; };
 		ECC4AE7720CD1579002BD906 /* BusinessAccountIndexModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC4AE7620CD1579002BD906 /* BusinessAccountIndexModel.m */; };
 		ECC4AE7A20CD15A1002BD906 /* BusinessAccountIndexTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC4AE7920CD15A1002BD906 /* BusinessAccountIndexTableViewCell.m */; };
@@ -58,9 +55,6 @@
 		ECC4AEE520CD5B0A002BD906 /* RentalPaymentTable00TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC4AEE420CD5B0A002BD906 /* RentalPaymentTable00TableViewCell.m */; };
 		ECC4AEE820CD5B15002BD906 /* RentalPaymentTable10TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC4AEE720CD5B15002BD906 /* RentalPaymentTable10TableViewCell.m */; };
 		ECC4AEEB20CD5B26002BD906 /* RentalPaymentTable20TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC4AEEA20CD5B26002BD906 /* RentalPaymentTable20TableViewCell.m */; };
-		ECC4AEF020CD5BB0002BD906 /* RentalPaymentTable00Model.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC4AEEF20CD5BB0002BD906 /* RentalPaymentTable00Model.m */; };
-		ECC4AEF620CD5BC3002BD906 /* RentalPaymentTable10Model.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC4AEF520CD5BC3002BD906 /* RentalPaymentTable10Model.m */; };
-		ECC4AEF920CD5BCB002BD906 /* RentalPaymentTable20Model.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC4AEF820CD5BCB002BD906 /* RentalPaymentTable20Model.m */; };
 		ECC4AEFE20CD8303002BD906 /* DealerAccessPendingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC4AEFD20CD8303002BD906 /* DealerAccessPendingViewController.m */; };
 		ECC4AF0320CD8379002BD906 /* DealerAccessPendingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC4AF0220CD8379002BD906 /* DealerAccessPendingModel.m */; };
 		ECC4AF0820CD83A1002BD906 /* DealerAccessPendingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC4AF0720CD83A1002BD906 /* DealerAccessPendingTableViewCell.m */; };
@@ -72,13 +66,8 @@
 		F82D693D20A172BB00C8EB9A /* AipBase.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F82D693620A172B500C8EB9A /* AipBase.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F82D693F20A172BB00C8EB9A /* AipOcrSdk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F82D693720A172B500C8EB9A /* AipOcrSdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F82D694120A172BB00C8EB9A /* IdcardQuality.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F82D693820A172B600C8EB9A /* IdcardQuality.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F84D0A1D20C4BDD200C9F77F /* ZXContractCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F84D0A1C20C4BDD200C9F77F /* ZXContractCategoryViewController.m */; };
-		F84D0A2020C4BDEB00C9F77F /* ZXDataUploadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F84D0A1F20C4BDEB00C9F77F /* ZXDataUploadViewController.m */; };
-		F84D0A2320C4BDFD00C9F77F /* ZXContractPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F84D0A2220C4BDFD00C9F77F /* ZXContractPreviewViewController.m */; };
-		F84D0A2720C4BFEB00C9F77F /* ZXContractSignViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F84D0A2620C4BFEB00C9F77F /* ZXContractSignViewController.m */; };
 		F84D0A2C20C4C1B700C9F77F /* ZXContractPreviewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F84D0A2B20C4C1B700C9F77F /* ZXContractPreviewModel.m */; };
 		F84D0A2F20C4C20900C9F77F /* ZXContractPreviewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F84D0A2E20C4C20900C9F77F /* ZXContractPreviewTableViewCell.m */; };
-		F84D0A3520C4C74500C9F77F /* ZXContractDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F84D0A3420C4C74500C9F77F /* ZXContractDetailViewController.m */; };
 		F84D0A3E20C4D79800C9F77F /* PublicCustomersDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = F84D0A3D20C4D79800C9F77F /* PublicCustomersDetailController.m */; };
 		F84D0A4120C4D7A900C9F77F /* PersonalCustomerDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F84D0A4020C4D7A900C9F77F /* PersonalCustomerDetailViewController.m */; };
 		F84D0A5620C4DD8D00C9F77F /* 历史记录@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F84D0A4220C4DD8A00C9F77F /* 历史记录@3x.png */; };
@@ -226,6 +215,36 @@
 		F88C09BC20AACAC100510434 /* 拍照@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F88C09BA20AACAC100510434 /* 拍照@3x.png */; };
 		F88C09BD20AACAC100510434 /* 拍照@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F88C09BB20AACAC100510434 /* 拍照@2x.png */; };
 		F892883B20A966B9000A5AD1 /* UIView+LLXAlertPop.m in Sources */ = {isa = PBXBuildFile; fileRef = F892883A20A966B9000A5AD1 /* UIView+LLXAlertPop.m */; };
+		F89E886B20CDFCA10033219C /* com.baidu.idl.face.model.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F89E886720CDFCA00033219C /* com.baidu.idl.face.model.bundle */; };
+		F89E886C20CDFCA10033219C /* com.baidu.idl.face.faceSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F89E886820CDFCA00033219C /* com.baidu.idl.face.faceSDK.bundle */; };
+		F89E886D20CDFCA10033219C /* idl-license.face-ios in Resources */ = {isa = PBXBuildFile; fileRef = F89E886920CDFCA00033219C /* idl-license.face-ios */; };
+		F89E886E20CDFCA10033219C /* IDLFaceSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F89E886A20CDFCA10033219C /* IDLFaceSDK.framework */; };
+		F89E887420CDFE180033219C /* RentalPaymentTable00Model.m in Sources */ = {isa = PBXBuildFile; fileRef = F89E887320CDFE180033219C /* RentalPaymentTable00Model.m */; };
+		F89E887720CDFE220033219C /* RentalPaymentTable10Model.m in Sources */ = {isa = PBXBuildFile; fileRef = F89E887620CDFE220033219C /* RentalPaymentTable10Model.m */; };
+		F89E887A20CDFE2A0033219C /* RentalPaymentTable20Model.m in Sources */ = {isa = PBXBuildFile; fileRef = F89E887920CDFE2A0033219C /* RentalPaymentTable20Model.m */; };
+		F89E888A20CE02B60033219C /* VideoCaptureDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = F89E888920CE02B50033219C /* VideoCaptureDevice.m */; };
+		F89E888E20CE02E10033219C /* ImageUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F89E888D20CE02E10033219C /* ImageUtils.m */; };
+		F89E88C720CE17460033219C /* ZXDataUploadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F89E889420CE17430033219C /* ZXDataUploadViewController.m */; };
+		F89E88C820CE17460033219C /* RentalPaymentTableAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F89E889720CE17430033219C /* RentalPaymentTableAddViewController.m */; };
+		F89E88C920CE17460033219C /* TransactionConditionsAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F89E889A20CE17430033219C /* TransactionConditionsAddViewController.m */; };
+		F89E88CA20CE17460033219C /* ZXContractCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F89E889D20CE17430033219C /* ZXContractCategoryViewController.m */; };
+		F89E88CB20CE17460033219C /* ZXContractDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F89E88A020CE17440033219C /* ZXContractDetailViewController.m */; };
+		F89E88CC20CE17460033219C /* ZXContractPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F89E88A220CE17440033219C /* ZXContractPreviewViewController.m */; };
+		F89E88CD20CE17460033219C /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = F89E88A520CE17440033219C /* CircleView.m */; };
+		F89E88CE20CE17460033219C /* FaceBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F89E88A720CE17440033219C /* FaceBaseViewController.m */; };
+		F89E88CF20CE17460033219C /* LivenessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F89E88A920CE17440033219C /* LivenessViewController.m */; };
+		F89E88D020CE17460033219C /* LivingConfigModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F89E88AB20CE17440033219C /* LivingConfigModel.m */; };
+		F89E88D120CE17460033219C /* RemindView.m in Sources */ = {isa = PBXBuildFile; fileRef = F89E88AD20CE17440033219C /* RemindView.m */; };
+		F89E88D220CE17460033219C /* ZXContractSignViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F89E88AF20CE17440033219C /* ZXContractSignViewController.m */; };
+		F89E88D320CE17460033219C /* GuarantorAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F89E88B220CE17440033219C /* GuarantorAddViewController.m */; };
+		F89E88D420CE17460033219C /* GuarantorListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F89E88B420CE17440033219C /* GuarantorListViewController.m */; };
+		F89E88D520CE17460033219C /* LeaseItemAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F89E88B720CE17450033219C /* LeaseItemAddViewController.m */; };
+		F89E88D620CE17460033219C /* AgriculturalquipmentAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F89E88BA20CE17450033219C /* AgriculturalquipmentAddViewController.m */; };
+		F89E88D720CE17460033219C /* ConstructionMachineryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F89E88BD20CE17450033219C /* ConstructionMachineryViewController.m */; };
+		F89E88D820CE17460033219C /* CreditRatingAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F89E88C020CE17460033219C /* CreditRatingAddViewController.m */; };
+		F89E88D920CE17460033219C /* ZXAgriculturalMachineryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F89E88C320CE17460033219C /* ZXAgriculturalMachineryViewController.m */; };
+		F89E88DA20CE17460033219C /* ZXConstructionMachineryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F89E88C620CE17460033219C /* ZXConstructionMachineryViewController.m */; };
+		F89E88DE20CE18E60033219C /* BusinessReceptionDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F89E88DD20CE18E60033219C /* BusinessReceptionDetailViewController.m */; };
 		F8B4AF0820C0DB79003DAFD4 /* BusinessIndexModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B4ADB220C0DB78003DAFD4 /* BusinessIndexModel.m */; };
 		F8B4AF0920C0DB79003DAFD4 /* BusinessReceptionListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B4ADB620C0DB78003DAFD4 /* BusinessReceptionListModel.m */; };
 		F8B4AF0A20C0DB79003DAFD4 /* BusinessReceptionDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B4ADB920C0DB78003DAFD4 /* BusinessReceptionDetailModel.m */; };
@@ -250,15 +269,7 @@
 		F8B4AF1D20C0DB79003DAFD4 /* DailyRecordListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B4ADF520C0DB78003DAFD4 /* DailyRecordListModel.m */; };
 		F8B4AF1E20C0DB79003DAFD4 /* TimePunch0Model.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B4ADF820C0DB78003DAFD4 /* TimePunch0Model.m */; };
 		F8B4AF1F20C0DB79003DAFD4 /* BusinessIndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B4ADFD20C0DB78003DAFD4 /* BusinessIndexViewController.m */; };
-		F8B4AF2020C0DB79003DAFD4 /* TransactionConditionsAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B4AE0120C0DB78003DAFD4 /* TransactionConditionsAddViewController.m */; };
-		F8B4AF2120C0DB79003DAFD4 /* GuarantorAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B4AE0420C0DB78003DAFD4 /* GuarantorAddViewController.m */; };
-		F8B4AF2220C0DB79003DAFD4 /* LeaseItemAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B4AE0720C0DB78003DAFD4 /* LeaseItemAddViewController.m */; };
-		F8B4AF2320C0DB79003DAFD4 /* AgriculturalquipmentAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B4AE0A20C0DB78003DAFD4 /* AgriculturalquipmentAddViewController.m */; };
-		F8B4AF2420C0DB79003DAFD4 /* ConstructionMachineryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B4AE0D20C0DB78003DAFD4 /* ConstructionMachineryViewController.m */; };
-		F8B4AF2520C0DB79003DAFD4 /* RentalPaymentTableAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B4AE1020C0DB78003DAFD4 /* RentalPaymentTableAddViewController.m */; };
-		F8B4AF2620C0DB79003DAFD4 /* CreditRatingAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B4AE1320C0DB78003DAFD4 /* CreditRatingAddViewController.m */; };
 		F8B4AF2720C0DB79003DAFD4 /* BusinessReceptionListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B4AE1720C0DB78003DAFD4 /* BusinessReceptionListViewController.m */; };
-		F8B4AF2820C0DB79003DAFD4 /* BusinessReceptionDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B4AE1A20C0DB78003DAFD4 /* BusinessReceptionDetailViewController.m */; };
 		F8B4AF2920C0DB79003DAFD4 /* CustomerSearchConditionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B4AE1E20C0DB78003DAFD4 /* CustomerSearchConditionViewController.m */; };
 		F8B4AF2A20C0DB79003DAFD4 /* CustomerManagementHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B4AE2120C0DB78003DAFD4 /* CustomerManagementHomeViewController.m */; };
 		F8B4AF2B20C0DB79003DAFD4 /* PersonalCustomerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B4AE2420C0DB78003DAFD4 /* PersonalCustomerViewController.m */; };
@@ -393,16 +404,10 @@
 		EC0D561120C3DFFB00D3A3E9 /* AboutUsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AboutUsViewController.m; sourceTree = "<group>"; };
 		EC0D561420C3E08C00D3A3E9 /* ResetPassWordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResetPassWordViewController.h; sourceTree = "<group>"; };
 		EC0D561520C3E08C00D3A3E9 /* ResetPassWordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResetPassWordViewController.m; sourceTree = "<group>"; };
-		EC0D561C20C3E88500D3A3E9 /* GuarantorListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuarantorListViewController.h; sourceTree = "<group>"; };
-		EC0D561D20C3E88500D3A3E9 /* GuarantorListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuarantorListViewController.m; sourceTree = "<group>"; };
 		EC0D562020C3EC3800D3A3E9 /* GuarantorListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuarantorListModel.h; sourceTree = "<group>"; };
 		EC0D562120C3EC3800D3A3E9 /* GuarantorListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuarantorListModel.m; sourceTree = "<group>"; };
 		EC0D562420C3ECC700D3A3E9 /* GuarantorListTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuarantorListTableViewCell.h; sourceTree = "<group>"; };
 		EC0D562520C3ECC700D3A3E9 /* GuarantorListTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuarantorListTableViewCell.m; sourceTree = "<group>"; };
-		EC0D563120C4128400D3A3E9 /* ZXAgriculturalMachineryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXAgriculturalMachineryViewController.h; sourceTree = "<group>"; };
-		EC0D563220C4128400D3A3E9 /* ZXAgriculturalMachineryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXAgriculturalMachineryViewController.m; sourceTree = "<group>"; };
-		EC0D563420C4129F00D3A3E9 /* ZXConstructionMachineryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXConstructionMachineryViewController.h; sourceTree = "<group>"; };
-		EC0D563520C4129F00D3A3E9 /* ZXConstructionMachineryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXConstructionMachineryViewController.m; sourceTree = "<group>"; };
 		ECC4AE6E20CD14D2002BD906 /* BusinessAccountIndexViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BusinessAccountIndexViewController.h; sourceTree = "<group>"; };
 		ECC4AE6F20CD14D2002BD906 /* BusinessAccountIndexViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BusinessAccountIndexViewController.m; sourceTree = "<group>"; };
 		ECC4AE7520CD1579002BD906 /* BusinessAccountIndexModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BusinessAccountIndexModel.h; sourceTree = "<group>"; };
@@ -469,12 +474,6 @@
 		ECC4AEE720CD5B15002BD906 /* RentalPaymentTable10TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RentalPaymentTable10TableViewCell.m; sourceTree = "<group>"; };
 		ECC4AEE920CD5B26002BD906 /* RentalPaymentTable20TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RentalPaymentTable20TableViewCell.h; sourceTree = "<group>"; };
 		ECC4AEEA20CD5B26002BD906 /* RentalPaymentTable20TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RentalPaymentTable20TableViewCell.m; sourceTree = "<group>"; };
-		ECC4AEEE20CD5BB0002BD906 /* RentalPaymentTable00Model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RentalPaymentTable00Model.h; sourceTree = "<group>"; };
-		ECC4AEEF20CD5BB0002BD906 /* RentalPaymentTable00Model.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RentalPaymentTable00Model.m; sourceTree = "<group>"; };
-		ECC4AEF420CD5BC3002BD906 /* RentalPaymentTable10Model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RentalPaymentTable10Model.h; sourceTree = "<group>"; };
-		ECC4AEF520CD5BC3002BD906 /* RentalPaymentTable10Model.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RentalPaymentTable10Model.m; sourceTree = "<group>"; };
-		ECC4AEF720CD5BCB002BD906 /* RentalPaymentTable20Model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RentalPaymentTable20Model.h; sourceTree = "<group>"; };
-		ECC4AEF820CD5BCB002BD906 /* RentalPaymentTable20Model.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RentalPaymentTable20Model.m; sourceTree = "<group>"; };
 		ECC4AEFC20CD8303002BD906 /* DealerAccessPendingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DealerAccessPendingViewController.h; sourceTree = "<group>"; };
 		ECC4AEFD20CD8303002BD906 /* DealerAccessPendingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DealerAccessPendingViewController.m; sourceTree = "<group>"; };
 		ECC4AF0120CD8379002BD906 /* DealerAccessPendingModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DealerAccessPendingModel.h; sourceTree = "<group>"; };
@@ -488,20 +487,10 @@
 		F82D693620A172B500C8EB9A /* AipBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AipBase.framework; sourceTree = "<group>"; };
 		F82D693720A172B500C8EB9A /* AipOcrSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AipOcrSdk.framework; sourceTree = "<group>"; };
 		F82D693820A172B600C8EB9A /* IdcardQuality.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IdcardQuality.framework; sourceTree = "<group>"; };
-		F84D0A1B20C4BDD200C9F77F /* ZXContractCategoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXContractCategoryViewController.h; sourceTree = "<group>"; };
-		F84D0A1C20C4BDD200C9F77F /* ZXContractCategoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXContractCategoryViewController.m; sourceTree = "<group>"; };
-		F84D0A1E20C4BDEB00C9F77F /* ZXDataUploadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXDataUploadViewController.h; sourceTree = "<group>"; };
-		F84D0A1F20C4BDEB00C9F77F /* ZXDataUploadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXDataUploadViewController.m; sourceTree = "<group>"; };
-		F84D0A2120C4BDFD00C9F77F /* ZXContractPreviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXContractPreviewViewController.h; sourceTree = "<group>"; };
-		F84D0A2220C4BDFD00C9F77F /* ZXContractPreviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXContractPreviewViewController.m; sourceTree = "<group>"; };
-		F84D0A2520C4BFEB00C9F77F /* ZXContractSignViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXContractSignViewController.h; sourceTree = "<group>"; };
-		F84D0A2620C4BFEB00C9F77F /* ZXContractSignViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXContractSignViewController.m; sourceTree = "<group>"; };
 		F84D0A2A20C4C1B700C9F77F /* ZXContractPreviewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXContractPreviewModel.h; sourceTree = "<group>"; };
 		F84D0A2B20C4C1B700C9F77F /* ZXContractPreviewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXContractPreviewModel.m; sourceTree = "<group>"; };
 		F84D0A2D20C4C20900C9F77F /* ZXContractPreviewTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXContractPreviewTableViewCell.h; sourceTree = "<group>"; };
 		F84D0A2E20C4C20900C9F77F /* ZXContractPreviewTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXContractPreviewTableViewCell.m; sourceTree = "<group>"; };
-		F84D0A3320C4C74500C9F77F /* ZXContractDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXContractDetailViewController.h; sourceTree = "<group>"; };
-		F84D0A3420C4C74500C9F77F /* ZXContractDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXContractDetailViewController.m; sourceTree = "<group>"; };
 		F84D0A3C20C4D79800C9F77F /* PublicCustomersDetailController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PublicCustomersDetailController.h; sourceTree = "<group>"; };
 		F84D0A3D20C4D79800C9F77F /* PublicCustomersDetailController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PublicCustomersDetailController.m; sourceTree = "<group>"; };
 		F84D0A3F20C4D7A900C9F77F /* PersonalCustomerDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonalCustomerDetailViewController.h; sourceTree = "<group>"; };
@@ -696,6 +685,63 @@
 		F88C09BB20AACAC100510434 /* 拍照@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "拍照@2x.png"; sourceTree = "<group>"; };
 		F892883920A966B8000A5AD1 /* UIView+LLXAlertPop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LLXAlertPop.h"; sourceTree = "<group>"; };
 		F892883A20A966B9000A5AD1 /* UIView+LLXAlertPop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LLXAlertPop.m"; sourceTree = "<group>"; };
+		F89E886720CDFCA00033219C /* com.baidu.idl.face.model.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = com.baidu.idl.face.model.bundle; sourceTree = "<group>"; };
+		F89E886820CDFCA00033219C /* com.baidu.idl.face.faceSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = com.baidu.idl.face.faceSDK.bundle; sourceTree = "<group>"; };
+		F89E886920CDFCA00033219C /* idl-license.face-ios */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "idl-license.face-ios"; sourceTree = "<group>"; };
+		F89E886A20CDFCA10033219C /* IDLFaceSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IDLFaceSDK.framework; sourceTree = "<group>"; };
+		F89E886F20CDFD300033219C /* FaceParameterConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceParameterConfig.h; sourceTree = "<group>"; };
+		F89E887220CDFE180033219C /* RentalPaymentTable00Model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RentalPaymentTable00Model.h; sourceTree = "<group>"; };
+		F89E887320CDFE180033219C /* RentalPaymentTable00Model.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RentalPaymentTable00Model.m; sourceTree = "<group>"; };
+		F89E887520CDFE220033219C /* RentalPaymentTable10Model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RentalPaymentTable10Model.h; sourceTree = "<group>"; };
+		F89E887620CDFE220033219C /* RentalPaymentTable10Model.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RentalPaymentTable10Model.m; sourceTree = "<group>"; };
+		F89E887820CDFE2A0033219C /* RentalPaymentTable20Model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RentalPaymentTable20Model.h; sourceTree = "<group>"; };
+		F89E887920CDFE2A0033219C /* RentalPaymentTable20Model.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RentalPaymentTable20Model.m; sourceTree = "<group>"; };
+		F89E888820CE02B50033219C /* VideoCaptureDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoCaptureDevice.h; sourceTree = "<group>"; };
+		F89E888920CE02B50033219C /* VideoCaptureDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoCaptureDevice.m; sourceTree = "<group>"; };
+		F89E888C20CE02E10033219C /* ImageUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageUtils.h; sourceTree = "<group>"; };
+		F89E888D20CE02E10033219C /* ImageUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageUtils.m; sourceTree = "<group>"; };
+		F89E889320CE17430033219C /* ZXDataUploadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXDataUploadViewController.h; sourceTree = "<group>"; };
+		F89E889420CE17430033219C /* ZXDataUploadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXDataUploadViewController.m; sourceTree = "<group>"; };
+		F89E889620CE17430033219C /* RentalPaymentTableAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RentalPaymentTableAddViewController.h; sourceTree = "<group>"; };
+		F89E889720CE17430033219C /* RentalPaymentTableAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RentalPaymentTableAddViewController.m; sourceTree = "<group>"; };
+		F89E889920CE17430033219C /* TransactionConditionsAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionConditionsAddViewController.h; sourceTree = "<group>"; };
+		F89E889A20CE17430033219C /* TransactionConditionsAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionConditionsAddViewController.m; sourceTree = "<group>"; };
+		F89E889C20CE17430033219C /* ZXContractCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXContractCategoryViewController.h; sourceTree = "<group>"; };
+		F89E889D20CE17430033219C /* ZXContractCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXContractCategoryViewController.m; sourceTree = "<group>"; };
+		F89E889F20CE17440033219C /* ZXContractDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXContractDetailViewController.h; sourceTree = "<group>"; };
+		F89E88A020CE17440033219C /* ZXContractDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXContractDetailViewController.m; sourceTree = "<group>"; };
+		F89E88A120CE17440033219C /* ZXContractPreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXContractPreviewViewController.h; sourceTree = "<group>"; };
+		F89E88A220CE17440033219C /* ZXContractPreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXContractPreviewViewController.m; sourceTree = "<group>"; };
+		F89E88A420CE17440033219C /* CircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleView.h; sourceTree = "<group>"; };
+		F89E88A520CE17440033219C /* CircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleView.m; sourceTree = "<group>"; };
+		F89E88A620CE17440033219C /* FaceBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceBaseViewController.h; sourceTree = "<group>"; };
+		F89E88A720CE17440033219C /* FaceBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceBaseViewController.m; sourceTree = "<group>"; };
+		F89E88A820CE17440033219C /* LivenessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LivenessViewController.h; sourceTree = "<group>"; };
+		F89E88A920CE17440033219C /* LivenessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LivenessViewController.m; sourceTree = "<group>"; };
+		F89E88AA20CE17440033219C /* LivingConfigModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LivingConfigModel.h; sourceTree = "<group>"; };
+		F89E88AB20CE17440033219C /* LivingConfigModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LivingConfigModel.m; sourceTree = "<group>"; };
+		F89E88AC20CE17440033219C /* RemindView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemindView.h; sourceTree = "<group>"; };
+		F89E88AD20CE17440033219C /* RemindView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemindView.m; sourceTree = "<group>"; };
+		F89E88AE20CE17440033219C /* ZXContractSignViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXContractSignViewController.h; sourceTree = "<group>"; };
+		F89E88AF20CE17440033219C /* ZXContractSignViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXContractSignViewController.m; sourceTree = "<group>"; };
+		F89E88B120CE17440033219C /* GuarantorAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuarantorAddViewController.h; sourceTree = "<group>"; };
+		F89E88B220CE17440033219C /* GuarantorAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuarantorAddViewController.m; sourceTree = "<group>"; };
+		F89E88B320CE17440033219C /* GuarantorListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuarantorListViewController.h; sourceTree = "<group>"; };
+		F89E88B420CE17440033219C /* GuarantorListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuarantorListViewController.m; sourceTree = "<group>"; };
+		F89E88B620CE17450033219C /* LeaseItemAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeaseItemAddViewController.h; sourceTree = "<group>"; };
+		F89E88B720CE17450033219C /* LeaseItemAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeaseItemAddViewController.m; sourceTree = "<group>"; };
+		F89E88B920CE17450033219C /* AgriculturalquipmentAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgriculturalquipmentAddViewController.h; sourceTree = "<group>"; };
+		F89E88BA20CE17450033219C /* AgriculturalquipmentAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgriculturalquipmentAddViewController.m; sourceTree = "<group>"; };
+		F89E88BC20CE17450033219C /* ConstructionMachineryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConstructionMachineryViewController.h; sourceTree = "<group>"; };
+		F89E88BD20CE17450033219C /* ConstructionMachineryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConstructionMachineryViewController.m; sourceTree = "<group>"; };
+		F89E88BF20CE17460033219C /* CreditRatingAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditRatingAddViewController.h; sourceTree = "<group>"; };
+		F89E88C020CE17460033219C /* CreditRatingAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreditRatingAddViewController.m; sourceTree = "<group>"; };
+		F89E88C220CE17460033219C /* ZXAgriculturalMachineryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXAgriculturalMachineryViewController.h; sourceTree = "<group>"; };
+		F89E88C320CE17460033219C /* ZXAgriculturalMachineryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXAgriculturalMachineryViewController.m; sourceTree = "<group>"; };
+		F89E88C520CE17460033219C /* ZXConstructionMachineryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXConstructionMachineryViewController.h; sourceTree = "<group>"; };
+		F89E88C620CE17460033219C /* ZXConstructionMachineryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXConstructionMachineryViewController.m; sourceTree = "<group>"; };
+		F89E88DC20CE18E60033219C /* BusinessReceptionDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessReceptionDetailViewController.h; sourceTree = "<group>"; };
+		F89E88DD20CE18E60033219C /* BusinessReceptionDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessReceptionDetailViewController.m; sourceTree = "<group>"; };
 		F8B4ADB120C0DB78003DAFD4 /* BusinessIndexModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessIndexModel.h; sourceTree = "<group>"; };
 		F8B4ADB220C0DB78003DAFD4 /* BusinessIndexModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessIndexModel.m; sourceTree = "<group>"; };
 		F8B4ADB520C0DB78003DAFD4 /* BusinessReceptionListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessReceptionListModel.h; sourceTree = "<group>"; };
@@ -744,24 +790,8 @@
 		F8B4ADF820C0DB78003DAFD4 /* TimePunch0Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimePunch0Model.m; sourceTree = "<group>"; };
 		F8B4ADFC20C0DB78003DAFD4 /* BusinessIndexViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessIndexViewController.h; sourceTree = "<group>"; };
 		F8B4ADFD20C0DB78003DAFD4 /* BusinessIndexViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessIndexViewController.m; sourceTree = "<group>"; };
-		F8B4AE0020C0DB78003DAFD4 /* TransactionConditionsAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionConditionsAddViewController.h; sourceTree = "<group>"; };
-		F8B4AE0120C0DB78003DAFD4 /* TransactionConditionsAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionConditionsAddViewController.m; sourceTree = "<group>"; };
-		F8B4AE0320C0DB78003DAFD4 /* GuarantorAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuarantorAddViewController.h; sourceTree = "<group>"; };
-		F8B4AE0420C0DB78003DAFD4 /* GuarantorAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuarantorAddViewController.m; sourceTree = "<group>"; };
-		F8B4AE0620C0DB78003DAFD4 /* LeaseItemAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeaseItemAddViewController.h; sourceTree = "<group>"; };
-		F8B4AE0720C0DB78003DAFD4 /* LeaseItemAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeaseItemAddViewController.m; sourceTree = "<group>"; };
-		F8B4AE0920C0DB78003DAFD4 /* AgriculturalquipmentAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgriculturalquipmentAddViewController.h; sourceTree = "<group>"; };
-		F8B4AE0A20C0DB78003DAFD4 /* AgriculturalquipmentAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgriculturalquipmentAddViewController.m; sourceTree = "<group>"; };
-		F8B4AE0C20C0DB78003DAFD4 /* ConstructionMachineryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConstructionMachineryViewController.h; sourceTree = "<group>"; };
-		F8B4AE0D20C0DB78003DAFD4 /* ConstructionMachineryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConstructionMachineryViewController.m; sourceTree = "<group>"; };
-		F8B4AE0F20C0DB78003DAFD4 /* RentalPaymentTableAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RentalPaymentTableAddViewController.h; sourceTree = "<group>"; };
-		F8B4AE1020C0DB78003DAFD4 /* RentalPaymentTableAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RentalPaymentTableAddViewController.m; sourceTree = "<group>"; };
-		F8B4AE1220C0DB78003DAFD4 /* CreditRatingAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditRatingAddViewController.h; sourceTree = "<group>"; };
-		F8B4AE1320C0DB78003DAFD4 /* CreditRatingAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreditRatingAddViewController.m; sourceTree = "<group>"; };
 		F8B4AE1620C0DB78003DAFD4 /* BusinessReceptionListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessReceptionListViewController.h; sourceTree = "<group>"; };
 		F8B4AE1720C0DB78003DAFD4 /* BusinessReceptionListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessReceptionListViewController.m; sourceTree = "<group>"; };
-		F8B4AE1920C0DB78003DAFD4 /* BusinessReceptionDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessReceptionDetailViewController.h; sourceTree = "<group>"; };
-		F8B4AE1A20C0DB78003DAFD4 /* BusinessReceptionDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessReceptionDetailViewController.m; sourceTree = "<group>"; };
 		F8B4AE1D20C0DB78003DAFD4 /* CustomerSearchConditionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerSearchConditionViewController.h; sourceTree = "<group>"; };
 		F8B4AE1E20C0DB78003DAFD4 /* CustomerSearchConditionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerSearchConditionViewController.m; sourceTree = "<group>"; };
 		F8B4AE2020C0DB78003DAFD4 /* CustomerManagementHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerManagementHomeViewController.h; sourceTree = "<group>"; };
@@ -942,6 +972,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F82D693920A172B600C8EB9A /* AipBase.framework in Frameworks */,
+				F89E886E20CDFCA10033219C /* IDLFaceSDK.framework in Frameworks */,
 				3256177746EDAF96D7B4F833 /* libPods-LOVOL.a in Frameworks */,
 				F82D693A20A172B600C8EB9A /* AipOcrSdk.framework in Frameworks */,
 				F82D693B20A172B600C8EB9A /* IdcardQuality.framework in Frameworks */,
@@ -1019,24 +1050,6 @@
 				EC0D562520C3ECC700D3A3E9 /* GuarantorListTableViewCell.m */,
 			);
 			path = "担保人列表";
-			sourceTree = "<group>";
-		};
-		EC0D562F20C4126300D3A3E9 /* 资信工程机械 */ = {
-			isa = PBXGroup;
-			children = (
-				EC0D563420C4129F00D3A3E9 /* ZXConstructionMachineryViewController.h */,
-				EC0D563520C4129F00D3A3E9 /* ZXConstructionMachineryViewController.m */,
-			);
-			path = "资信工程机械";
-			sourceTree = "<group>";
-		};
-		EC0D563020C4126D00D3A3E9 /* 资信农业机械 */ = {
-			isa = PBXGroup;
-			children = (
-				EC0D563120C4128400D3A3E9 /* ZXAgriculturalMachineryViewController.h */,
-				EC0D563220C4128400D3A3E9 /* ZXAgriculturalMachineryViewController.m */,
-			);
-			path = "资信农业机械";
 			sourceTree = "<group>";
 		};
 		ECC4AE6C20CD14A9002BD906 /* 业务台账 */ = {
@@ -1259,28 +1272,6 @@
 			path = "租金支付表";
 			sourceTree = "<group>";
 		};
-		ECC4AEEC20CD5B94002BD906 /* 业务受理 */ = {
-			isa = PBXGroup;
-			children = (
-				ECC4AEED20CD5BA7002BD906 /* 租金支付表 */,
-			);
-			name = "业务受理";
-			path = "../../../../../Downloads/业务受理";
-			sourceTree = "<group>";
-		};
-		ECC4AEED20CD5BA7002BD906 /* 租金支付表 */ = {
-			isa = PBXGroup;
-			children = (
-				ECC4AEEE20CD5BB0002BD906 /* RentalPaymentTable00Model.h */,
-				ECC4AEEF20CD5BB0002BD906 /* RentalPaymentTable00Model.m */,
-				ECC4AEF420CD5BC3002BD906 /* RentalPaymentTable10Model.h */,
-				ECC4AEF520CD5BC3002BD906 /* RentalPaymentTable10Model.m */,
-				ECC4AEF720CD5BCB002BD906 /* RentalPaymentTable20Model.h */,
-				ECC4AEF820CD5BCB002BD906 /* RentalPaymentTable20Model.m */,
-			);
-			path = "租金支付表";
-			sourceTree = "<group>";
-		};
 		ECC4AEFA20CD82B2002BD906 /* 经销商准入 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1340,44 +1331,6 @@
 				ECC4AF0B20CD8DB8002BD906 /* DealerAccessPendingDetailViewController.m */,
 			);
 			path = "经销商准入代办详情";
-			sourceTree = "<group>";
-		};
-		F84D0A1820C4BD3400C9F77F /* 合同类别 */ = {
-			isa = PBXGroup;
-			children = (
-				F84D0A1B20C4BDD200C9F77F /* ZXContractCategoryViewController.h */,
-				F84D0A1C20C4BDD200C9F77F /* ZXContractCategoryViewController.m */,
-			);
-			path = "合同类别";
-			sourceTree = "<group>";
-		};
-		F84D0A1920C4BD3E00C9F77F /* 资料上传 */ = {
-			isa = PBXGroup;
-			children = (
-				F84D0A1E20C4BDEB00C9F77F /* ZXDataUploadViewController.h */,
-				F84D0A1F20C4BDEB00C9F77F /* ZXDataUploadViewController.m */,
-			);
-			path = "资料上传";
-			sourceTree = "<group>";
-		};
-		F84D0A1A20C4BD9000C9F77F /* 合同预览 */ = {
-			isa = PBXGroup;
-			children = (
-				F84D0A2120C4BDFD00C9F77F /* ZXContractPreviewViewController.h */,
-				F84D0A2220C4BDFD00C9F77F /* ZXContractPreviewViewController.m */,
-				F84D0A3320C4C74500C9F77F /* ZXContractDetailViewController.h */,
-				F84D0A3420C4C74500C9F77F /* ZXContractDetailViewController.m */,
-			);
-			path = "合同预览";
-			sourceTree = "<group>";
-		};
-		F84D0A2420C4BFD100C9F77F /* 合同面签 */ = {
-			isa = PBXGroup;
-			children = (
-				F84D0A2520C4BFEB00C9F77F /* ZXContractSignViewController.h */,
-				F84D0A2620C4BFEB00C9F77F /* ZXContractSignViewController.m */,
-			);
-			path = "合同面签";
 			sourceTree = "<group>";
 		};
 		F84D0A2820C4C19700C9F77F /* 合同预览 */ = {
@@ -1563,6 +1516,7 @@
 		F85965C8208F0524001CEBF7 /* LOVOL */ = {
 			isa = PBXGroup;
 			children = (
+				F89E886F20CDFD300033219C /* FaceParameterConfig.h */,
 				F85965C9208F0524001CEBF7 /* AppDelegate.h */,
 				F85965CA208F0524001CEBF7 /* AppDelegate.m */,
 				F85969C8208F0C79001CEBF7 /* AppDelegate+AppService.h */,
@@ -1600,6 +1554,9 @@
 		F8596616208F0BC1001CEBF7 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				F89E888B20CE02E10033219C /* Utils */,
+				F89E888720CE02B50033219C /* Core */,
+				F89E886620CDFC8F0033219C /* HTSB */,
 				F87CFCC620B6A2F000345701 /* MHDatePicker */,
 				F892883820A966AD000A5AD1 /* PopAlert */,
 				F8EF111D20A3DD31007DFBAA /* SGSegmentedControl */,
@@ -1775,6 +1732,201 @@
 			path = PopAlert;
 			sourceTree = "<group>";
 		};
+		F89E886620CDFC8F0033219C /* HTSB */ = {
+			isa = PBXGroup;
+			children = (
+				F89E886820CDFCA00033219C /* com.baidu.idl.face.faceSDK.bundle */,
+				F89E886720CDFCA00033219C /* com.baidu.idl.face.model.bundle */,
+				F89E886920CDFCA00033219C /* idl-license.face-ios */,
+				F89E886A20CDFCA10033219C /* IDLFaceSDK.framework */,
+			);
+			path = HTSB;
+			sourceTree = "<group>";
+		};
+		F89E887020CDFE010033219C /* 业务受理 */ = {
+			isa = PBXGroup;
+			children = (
+				F89E887120CDFE0E0033219C /* 租金支付表 */,
+			);
+			name = "业务受理";
+			path = "../../../../IDLFaceSDKDemoOC/IDLFaceSDKDemoOC/业务受理";
+			sourceTree = "<group>";
+		};
+		F89E887120CDFE0E0033219C /* 租金支付表 */ = {
+			isa = PBXGroup;
+			children = (
+				F89E887220CDFE180033219C /* RentalPaymentTable00Model.h */,
+				F89E887320CDFE180033219C /* RentalPaymentTable00Model.m */,
+				F89E887520CDFE220033219C /* RentalPaymentTable10Model.h */,
+				F89E887620CDFE220033219C /* RentalPaymentTable10Model.m */,
+				F89E887820CDFE2A0033219C /* RentalPaymentTable20Model.h */,
+				F89E887920CDFE2A0033219C /* RentalPaymentTable20Model.m */,
+			);
+			path = "租金支付表";
+			sourceTree = "<group>";
+		};
+		F89E888720CE02B50033219C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F89E888820CE02B50033219C /* VideoCaptureDevice.h */,
+				F89E888920CE02B50033219C /* VideoCaptureDevice.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		F89E888B20CE02E10033219C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F89E888C20CE02E10033219C /* ImageUtils.h */,
+				F89E888D20CE02E10033219C /* ImageUtils.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F89E889220CE17430033219C /* 资料上传 */ = {
+			isa = PBXGroup;
+			children = (
+				F89E889320CE17430033219C /* ZXDataUploadViewController.h */,
+				F89E889420CE17430033219C /* ZXDataUploadViewController.m */,
+			);
+			path = "资料上传";
+			sourceTree = "<group>";
+		};
+		F89E889520CE17430033219C /* 租金支付表新增 */ = {
+			isa = PBXGroup;
+			children = (
+				F89E889620CE17430033219C /* RentalPaymentTableAddViewController.h */,
+				F89E889720CE17430033219C /* RentalPaymentTableAddViewController.m */,
+			);
+			path = "租金支付表新增";
+			sourceTree = "<group>";
+		};
+		F89E889820CE17430033219C /* 成交条件新增 */ = {
+			isa = PBXGroup;
+			children = (
+				F89E889920CE17430033219C /* TransactionConditionsAddViewController.h */,
+				F89E889A20CE17430033219C /* TransactionConditionsAddViewController.m */,
+			);
+			path = "成交条件新增";
+			sourceTree = "<group>";
+		};
+		F89E889B20CE17430033219C /* 合同类别 */ = {
+			isa = PBXGroup;
+			children = (
+				F89E889C20CE17430033219C /* ZXContractCategoryViewController.h */,
+				F89E889D20CE17430033219C /* ZXContractCategoryViewController.m */,
+			);
+			path = "合同类别";
+			sourceTree = "<group>";
+		};
+		F89E889E20CE17440033219C /* 合同预览 */ = {
+			isa = PBXGroup;
+			children = (
+				F89E889F20CE17440033219C /* ZXContractDetailViewController.h */,
+				F89E88A020CE17440033219C /* ZXContractDetailViewController.m */,
+				F89E88A120CE17440033219C /* ZXContractPreviewViewController.h */,
+				F89E88A220CE17440033219C /* ZXContractPreviewViewController.m */,
+			);
+			path = "合同预览";
+			sourceTree = "<group>";
+		};
+		F89E88A320CE17440033219C /* 合同面签 */ = {
+			isa = PBXGroup;
+			children = (
+				F89E88A420CE17440033219C /* CircleView.h */,
+				F89E88A520CE17440033219C /* CircleView.m */,
+				F89E88A620CE17440033219C /* FaceBaseViewController.h */,
+				F89E88A720CE17440033219C /* FaceBaseViewController.m */,
+				F89E88A820CE17440033219C /* LivenessViewController.h */,
+				F89E88A920CE17440033219C /* LivenessViewController.m */,
+				F89E88AA20CE17440033219C /* LivingConfigModel.h */,
+				F89E88AB20CE17440033219C /* LivingConfigModel.m */,
+				F89E88AC20CE17440033219C /* RemindView.h */,
+				F89E88AD20CE17440033219C /* RemindView.m */,
+				F89E88AE20CE17440033219C /* ZXContractSignViewController.h */,
+				F89E88AF20CE17440033219C /* ZXContractSignViewController.m */,
+			);
+			path = "合同面签";
+			sourceTree = "<group>";
+		};
+		F89E88B020CE17440033219C /* 担保人新增 */ = {
+			isa = PBXGroup;
+			children = (
+				F89E88B120CE17440033219C /* GuarantorAddViewController.h */,
+				F89E88B220CE17440033219C /* GuarantorAddViewController.m */,
+				F89E88B320CE17440033219C /* GuarantorListViewController.h */,
+				F89E88B420CE17440033219C /* GuarantorListViewController.m */,
+			);
+			path = "担保人新增";
+			sourceTree = "<group>";
+		};
+		F89E88B520CE17450033219C /* 租赁物新增 */ = {
+			isa = PBXGroup;
+			children = (
+				F89E88B620CE17450033219C /* LeaseItemAddViewController.h */,
+				F89E88B720CE17450033219C /* LeaseItemAddViewController.m */,
+				F89E88B820CE17450033219C /* 新增农业装备 */,
+				F89E88BB20CE17450033219C /* 新增工程机械 */,
+			);
+			path = "租赁物新增";
+			sourceTree = "<group>";
+		};
+		F89E88B820CE17450033219C /* 新增农业装备 */ = {
+			isa = PBXGroup;
+			children = (
+				F89E88B920CE17450033219C /* AgriculturalquipmentAddViewController.h */,
+				F89E88BA20CE17450033219C /* AgriculturalquipmentAddViewController.m */,
+			);
+			path = "新增农业装备";
+			sourceTree = "<group>";
+		};
+		F89E88BB20CE17450033219C /* 新增工程机械 */ = {
+			isa = PBXGroup;
+			children = (
+				F89E88BC20CE17450033219C /* ConstructionMachineryViewController.h */,
+				F89E88BD20CE17450033219C /* ConstructionMachineryViewController.m */,
+			);
+			path = "新增工程机械";
+			sourceTree = "<group>";
+		};
+		F89E88BE20CE17460033219C /* 资信评级新增 */ = {
+			isa = PBXGroup;
+			children = (
+				F89E88BF20CE17460033219C /* CreditRatingAddViewController.h */,
+				F89E88C020CE17460033219C /* CreditRatingAddViewController.m */,
+				F89E88C120CE17460033219C /* 资信农业机械 */,
+				F89E88C420CE17460033219C /* 资信工程机械 */,
+			);
+			path = "资信评级新增";
+			sourceTree = "<group>";
+		};
+		F89E88C120CE17460033219C /* 资信农业机械 */ = {
+			isa = PBXGroup;
+			children = (
+				F89E88C220CE17460033219C /* ZXAgriculturalMachineryViewController.h */,
+				F89E88C320CE17460033219C /* ZXAgriculturalMachineryViewController.m */,
+			);
+			path = "资信农业机械";
+			sourceTree = "<group>";
+		};
+		F89E88C420CE17460033219C /* 资信工程机械 */ = {
+			isa = PBXGroup;
+			children = (
+				F89E88C520CE17460033219C /* ZXConstructionMachineryViewController.h */,
+				F89E88C620CE17460033219C /* ZXConstructionMachineryViewController.m */,
+			);
+			path = "资信工程机械";
+			sourceTree = "<group>";
+		};
+		F89E88DB20CE18D30033219C /* 业务受理详情Index */ = {
+			isa = PBXGroup;
+			children = (
+				F89E88DC20CE18E60033219C /* BusinessReceptionDetailViewController.h */,
+				F89E88DD20CE18E60033219C /* BusinessReceptionDetailViewController.m */,
+			);
+			path = "业务受理详情Index";
+			sourceTree = "<group>";
+		};
 		F8B4ADAE20C0DB78003DAFD4 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -1790,8 +1942,8 @@
 		F8B4ADAF20C0DB78003DAFD4 /* Business */ = {
 			isa = PBXGroup;
 			children = (
+				F89E887020CDFE010033219C /* 业务受理 */,
 				ECC4AEFF20CD835C002BD906 /* 经销商准入 */,
-				ECC4AEEC20CD5B94002BD906 /* 业务受理 */,
 				ECC4AE7120CD154F002BD906 /* 业务台账 */,
 				F84D0A2820C4C19700C9F77F /* 合同预览 */,
 				EC0D561F20C3EC2100D3A3E9 /* 担保人列表 */,
@@ -2099,88 +2251,10 @@
 		F8B4ADFE20C0DB78003DAFD4 /* 业务发起 */ = {
 			isa = PBXGroup;
 			children = (
-				F84D0A2420C4BFD100C9F77F /* 合同面签 */,
-				F84D0A1A20C4BD9000C9F77F /* 合同预览 */,
-				F84D0A1920C4BD3E00C9F77F /* 资料上传 */,
-				F84D0A1820C4BD3400C9F77F /* 合同类别 */,
-				F8B4ADFF20C0DB78003DAFD4 /* 成交条件新增 */,
-				F8B4AE0220C0DB78003DAFD4 /* 担保人新增 */,
-				F8B4AE0520C0DB78003DAFD4 /* 租赁物新增 */,
-				F8B4AE0E20C0DB78003DAFD4 /* 租金支付表新增 */,
-				F8B4AE1120C0DB78003DAFD4 /* 资信评级新增 */,
 				ECC4AF0D20CD942E002BD906 /* DBBusinessinitiationViewController.h */,
 				ECC4AF0E20CD942E002BD906 /* DBBusinessinitiationViewController.m */,
 			);
 			path = "业务发起";
-			sourceTree = "<group>";
-		};
-		F8B4ADFF20C0DB78003DAFD4 /* 成交条件新增 */ = {
-			isa = PBXGroup;
-			children = (
-				F8B4AE0020C0DB78003DAFD4 /* TransactionConditionsAddViewController.h */,
-				F8B4AE0120C0DB78003DAFD4 /* TransactionConditionsAddViewController.m */,
-			);
-			path = "成交条件新增";
-			sourceTree = "<group>";
-		};
-		F8B4AE0220C0DB78003DAFD4 /* 担保人新增 */ = {
-			isa = PBXGroup;
-			children = (
-				F8B4AE0320C0DB78003DAFD4 /* GuarantorAddViewController.h */,
-				F8B4AE0420C0DB78003DAFD4 /* GuarantorAddViewController.m */,
-				EC0D561C20C3E88500D3A3E9 /* GuarantorListViewController.h */,
-				EC0D561D20C3E88500D3A3E9 /* GuarantorListViewController.m */,
-			);
-			path = "担保人新增";
-			sourceTree = "<group>";
-		};
-		F8B4AE0520C0DB78003DAFD4 /* 租赁物新增 */ = {
-			isa = PBXGroup;
-			children = (
-				F8B4AE0620C0DB78003DAFD4 /* LeaseItemAddViewController.h */,
-				F8B4AE0720C0DB78003DAFD4 /* LeaseItemAddViewController.m */,
-				F8B4AE0820C0DB78003DAFD4 /* 新增农业装备 */,
-				F8B4AE0B20C0DB78003DAFD4 /* 新增工程机械 */,
-			);
-			path = "租赁物新增";
-			sourceTree = "<group>";
-		};
-		F8B4AE0820C0DB78003DAFD4 /* 新增农业装备 */ = {
-			isa = PBXGroup;
-			children = (
-				F8B4AE0920C0DB78003DAFD4 /* AgriculturalquipmentAddViewController.h */,
-				F8B4AE0A20C0DB78003DAFD4 /* AgriculturalquipmentAddViewController.m */,
-			);
-			path = "新增农业装备";
-			sourceTree = "<group>";
-		};
-		F8B4AE0B20C0DB78003DAFD4 /* 新增工程机械 */ = {
-			isa = PBXGroup;
-			children = (
-				F8B4AE0C20C0DB78003DAFD4 /* ConstructionMachineryViewController.h */,
-				F8B4AE0D20C0DB78003DAFD4 /* ConstructionMachineryViewController.m */,
-			);
-			path = "新增工程机械";
-			sourceTree = "<group>";
-		};
-		F8B4AE0E20C0DB78003DAFD4 /* 租金支付表新增 */ = {
-			isa = PBXGroup;
-			children = (
-				F8B4AE0F20C0DB78003DAFD4 /* RentalPaymentTableAddViewController.h */,
-				F8B4AE1020C0DB78003DAFD4 /* RentalPaymentTableAddViewController.m */,
-			);
-			path = "租金支付表新增";
-			sourceTree = "<group>";
-		};
-		F8B4AE1120C0DB78003DAFD4 /* 资信评级新增 */ = {
-			isa = PBXGroup;
-			children = (
-				EC0D563020C4126D00D3A3E9 /* 资信农业机械 */,
-				EC0D562F20C4126300D3A3E9 /* 资信工程机械 */,
-				F8B4AE1220C0DB78003DAFD4 /* CreditRatingAddViewController.h */,
-				F8B4AE1320C0DB78003DAFD4 /* CreditRatingAddViewController.m */,
-			);
-			path = "资信评级新增";
 			sourceTree = "<group>";
 		};
 		F8B4AE1420C0DB78003DAFD4 /* 业务受理 */ = {
@@ -2204,8 +2278,16 @@
 		F8B4AE1820C0DB78003DAFD4 /* 业务受理详情 */ = {
 			isa = PBXGroup;
 			children = (
-				F8B4AE1920C0DB78003DAFD4 /* BusinessReceptionDetailViewController.h */,
-				F8B4AE1A20C0DB78003DAFD4 /* BusinessReceptionDetailViewController.m */,
+				F89E88DB20CE18D30033219C /* 业务受理详情Index */,
+				F89E889820CE17430033219C /* 成交条件新增 */,
+				F89E88B020CE17440033219C /* 担保人新增 */,
+				F89E889B20CE17430033219C /* 合同类别 */,
+				F89E88A320CE17440033219C /* 合同面签 */,
+				F89E889E20CE17440033219C /* 合同预览 */,
+				F89E889220CE17430033219C /* 资料上传 */,
+				F89E88BE20CE17460033219C /* 资信评级新增 */,
+				F89E889520CE17430033219C /* 租金支付表新增 */,
+				F89E88B520CE17450033219C /* 租赁物新增 */,
 			);
 			path = "业务受理详情";
 			sourceTree = "<group>";
@@ -3097,6 +3179,7 @@
 				ECC4AE8920CD1A06002BD906 /* 放款进度查询@2x.png in Resources */,
 				F855CAF620ABAE11001FC23E /* 关于我们@2x.png in Resources */,
 				EC08604420C43F6B007504D9 /* 退出登录@2x.png in Resources */,
+				F89E886B20CDFCA10033219C /* com.baidu.idl.face.model.bundle in Resources */,
 				F84D0A5E20C4DD8D00C9F77F /* 删除@3x.png in Resources */,
 				F855CAFE20ABAE11001FC23E /* 密码重置@2x.png in Resources */,
 				F84D0A6020C4DD8D00C9F77F /* 新增添加@2x.png in Resources */,
@@ -3116,6 +3199,7 @@
 				ECC4AE8620CD1A06002BD906 /* 拖车进度查询@3x.png in Resources */,
 				F855CAF920ABAE11001FC23E /* 历史报价@3x.png in Resources */,
 				F855CAF720ABAE11001FC23E /* 关于我们@3x.png in Resources */,
+				F89E886C20CDFCA10033219C /* com.baidu.idl.face.faceSDK.bundle in Resources */,
 				F855CAEE20ABAE11001FC23E /* 业务发起@2x.png in Resources */,
 				F855CAFB20ABAE11001FC23E /* 客户管理@3x.png in Resources */,
 				F855CAEF20ABAE11001FC23E /* 业务发起@3x.png in Resources */,
@@ -3197,6 +3281,7 @@
 				F855CB3020ABAE11001FC23E /* 经销商准入@3x.png in Resources */,
 				F88C09BD20AACAC100510434 /* 拍照@2x.png in Resources */,
 				F855CB5120ABC738001FC23E /* 业务@3x.png in Resources */,
+				F89E886D20CDFCA10033219C /* idl-license.face-ios in Resources */,
 				F855CB2C20ABAE11001FC23E /* 登录@3x.png in Resources */,
 				F84D0A6820C4DD8D00C9F77F /* 新增@2x.png in Resources */,
 				F84D0A6420C4DD8D00C9F77F /* 日期@3x.png in Resources */,
@@ -3279,12 +3364,14 @@
 			files = (
 				F8B4AF3220C0DB79003DAFD4 /* CreditPendingUpcomingViewController.m in Sources */,
 				F85969C2208F0BC3001CEBF7 /* UIView+Extension.m in Sources */,
-				EC0D563320C4128400D3A3E9 /* ZXAgriculturalMachineryViewController.m in Sources */,
+				F89E888A20CE02B60033219C /* VideoCaptureDevice.m in Sources */,
 				F8B4AF5F20C0DB79003DAFD4 /* RegularExpressions.m in Sources */,
+				F89E88D120CE17460033219C /* RemindView.m in Sources */,
 				F8B4AF1A20C0DB79003DAFD4 /* CreditPendingModel.m in Sources */,
 				F86888832091689D008A2075 /* PPNetworkCache.m in Sources */,
 				F8B4AF5720C0DB79003DAFD4 /* TimePunchViewController.m in Sources */,
 				F8B4AF4D20C0DB79003DAFD4 /* RDVTabBarController.m in Sources */,
+				F89E88C820CE17460033219C /* RentalPaymentTableAddViewController.m in Sources */,
 				ECC4AE9220CD1B28002BD906 /* LoanProgressInquiryViewController.m in Sources */,
 				F8B4AF3520C0DB79003DAFD4 /* MineIndexViewController.m in Sources */,
 				ECC4AEA820CD279B002BD906 /* OrderProgressInquiryModel.m in Sources */,
@@ -3297,14 +3384,12 @@
 				ECC4AED620CD3F85002BD906 /* TrailerProgressEditeViewController.m in Sources */,
 				F87CFCCD20B6A2F000345701 /* MHSelectPickerView.m in Sources */,
 				F85F28C820C126B0004D661D /* DailyRecordAdd1ViewController.m in Sources */,
-				F84D0A2720C4BFEB00C9F77F /* ZXContractSignViewController.m in Sources */,
 				F85969CD208F0C8A001CEBF7 /* AppDelegate+MapService.m in Sources */,
 				ECC4AEE820CD5B15002BD906 /* RentalPaymentTable10TableViewCell.m in Sources */,
 				F84D0A3E20C4D79800C9F77F /* PublicCustomersDetailController.m in Sources */,
 				F8B4AF1E20C0DB79003DAFD4 /* TimePunch0Model.m in Sources */,
 				F8B4AF7820C0DB79003DAFD4 /* DailyRecordListTableViewCell.m in Sources */,
 				F8EF112420A3DD31007DFBAA /* SGImageButton.m in Sources */,
-				F84D0A3520C4C74500C9F77F /* ZXContractDetailViewController.m in Sources */,
 				F8B4AF3120C0DB79003DAFD4 /* ProcessedCreditPendingViewController.m in Sources */,
 				F8B4AF2920C0DB79003DAFD4 /* CustomerSearchConditionViewController.m in Sources */,
 				F8596997208F0BC2001CEBF7 /* CycleScrollView.m in Sources */,
@@ -3313,43 +3398,44 @@
 				F85969BB208F0BC3001CEBF7 /* LTSCalendarDayItem.m in Sources */,
 				F85969CA208F0C79001CEBF7 /* AppDelegate+AppService.m in Sources */,
 				F84D0A4120C4D7A900C9F77F /* PersonalCustomerDetailViewController.m in Sources */,
+				F89E88D620CE17460033219C /* AgriculturalquipmentAddViewController.m in Sources */,
 				F8B4AF6620C0DB79003DAFD4 /* ApprovalRecordTableViewCell.m in Sources */,
+				F89E88C920CE17460033219C /* TransactionConditionsAddViewController.m in Sources */,
 				F892883B20A966B9000A5AD1 /* UIView+LLXAlertPop.m in Sources */,
 				F8B4AF2F20C0DB79003DAFD4 /* NewCreditPendingViewController.m in Sources */,
 				F8B4AF7920C0DB79003DAFD4 /* TimePunch0TableViewCell.m in Sources */,
 				F8B4AF4E20C0DB79003DAFD4 /* RDVTabBarItem.m in Sources */,
 				ECC4AEB520CD2960002BD906 /* litigationProgressInquiryViewController.m in Sources */,
 				F85F28CF20C12DBB004D661D /* NeighborhoodSend0TableViewCell.m in Sources */,
+				F89E88DE20CE18E60033219C /* BusinessReceptionDetailViewController.m in Sources */,
 				ECC4AE9720CD1B97002BD906 /* LoanProgressInquiryModel.m in Sources */,
+				F89E88D520CE17460033219C /* LeaseItemAddViewController.m in Sources */,
 				F8B4AF1920C0DB79003DAFD4 /* TaskModel.m in Sources */,
 				F8B4AF5120C0DB79003DAFD4 /* CreditPendingAllViewController.m in Sources */,
+				F89E88D020CE17460033219C /* LivingConfigModel.m in Sources */,
+				F89E888E20CE02E10033219C /* ImageUtils.m in Sources */,
 				F8596921208F0BC2001CEBF7 /* GBTagListView.m in Sources */,
 				ECC4AE7A20CD15A1002BD906 /* BusinessAccountIndexTableViewCell.m in Sources */,
 				ECC4AF0F20CD942E002BD906 /* DBBusinessinitiationViewController.m in Sources */,
 				ECC4AEA420CD2773002BD906 /* OrderProgressInquiryConditionViewController.m in Sources */,
 				F8B4AF3C20C0DB79003DAFD4 /* MsgViewController.m in Sources */,
 				ECC4AECA20CD328B002BD906 /* TrailerProgressInquiryModel.m in Sources */,
-				F84D0A2320C4BDFD00C9F77F /* ZXContractPreviewViewController.m in Sources */,
 				ECC4AE9D20CD2133002BD906 /* LoanProgressInquiryConditionViewController.m in Sources */,
 				F8EF112520A3DD31007DFBAA /* SGSegmentedControl.m in Sources */,
-				EC0D563620C4129F00D3A3E9 /* ZXConstructionMachineryViewController.m in Sources */,
-				F84D0A2020C4BDEB00C9F77F /* ZXDataUploadViewController.m in Sources */,
 				F8B4AF4920C0DB79003DAFD4 /* QFeeViewController.m in Sources */,
-				EC0D561E20C3E88500D3A3E9 /* GuarantorListViewController.m in Sources */,
 				F8B4AF2720C0DB79003DAFD4 /* BusinessReceptionListViewController.m in Sources */,
 				F859699B208F0BC2001CEBF7 /* PageControl.m in Sources */,
 				ECC4AED320CD3B54002BD906 /* TrailerProgressDetailViewController.m in Sources */,
 				F85969AC208F0BC2001CEBF7 /* XRQTextview.m in Sources */,
 				F8B4AF2B20C0DB79003DAFD4 /* PersonalCustomerViewController.m in Sources */,
 				F8B4AF3A20C0DB79003DAFD4 /* MsgModel.m in Sources */,
-				F8B4AF2420C0DB79003DAFD4 /* ConstructionMachineryViewController.m in Sources */,
 				F86888842091689D008A2075 /* PPNetworkHelper.m in Sources */,
 				F859692B208F0BC2001CEBF7 /* UICollectionView+IndexPath.m in Sources */,
 				F8B4AF5D20C0DB79003DAFD4 /* HUD.m in Sources */,
 				F8B4AF4F20C0DB79003DAFD4 /* WorkIndexViewController.m in Sources */,
+				F89E88D920CE17460033219C /* ZXAgriculturalMachineryViewController.m in Sources */,
 				F85969BF208F0BC3001CEBF7 /* LTSCalendarWeekDayView.m in Sources */,
 				ECC4AEE520CD5B0A002BD906 /* RentalPaymentTable00TableViewCell.m in Sources */,
-				F8B4AF2220C0DB79003DAFD4 /* LeaseItemAddViewController.m in Sources */,
 				F8B4AF6C20C0DB79003DAFD4 /* PageFirstIndex0TableViewCell.m in Sources */,
 				ECC4AED020CD3B2A002BD906 /* TrailerProgressInquiryConditionViewController.m in Sources */,
 				F8B4AF3320C0DB79003DAFD4 /* ImmediateApprovalViewController.m in Sources */,
@@ -3359,7 +3445,6 @@
 				F8B4AF1620C0DB79003DAFD4 /* QuoteHistoryModel.m in Sources */,
 				ECC4AEFE20CD8303002BD906 /* DealerAccessPendingViewController.m in Sources */,
 				F8B4AF7620C0DB79003DAFD4 /* PostSign0TableViewCell.m in Sources */,
-				F8B4AF2820C0DB79003DAFD4 /* BusinessReceptionDetailViewController.m in Sources */,
 				F859699A208F0BC2001CEBF7 /* DotView.m in Sources */,
 				F8596999208F0BC2001CEBF7 /* AnimatedDotView.m in Sources */,
 				F85969BD208F0BC3001CEBF7 /* LTSCalendarScrollView.m in Sources */,
@@ -3369,19 +3454,24 @@
 				F8B4AF3620C0DB79003DAFD4 /* MsgDetailModel.m in Sources */,
 				EC0D561620C3E08C00D3A3E9 /* ResetPassWordViewController.m in Sources */,
 				ECC4AECD20CD3299002BD906 /* TrailerProgressInquiryTableViewCell.m in Sources */,
+				F89E88CC20CE17460033219C /* ZXContractPreviewViewController.m in Sources */,
 				F8B4AF6720C0DB79003DAFD4 /* CustomerManagementHomeTableViewCell.m in Sources */,
 				F85969B7208F0BC3001CEBF7 /* LTSCalendarAppearance.m in Sources */,
 				F8B4AF5B20C0DB79003DAFD4 /* FromsFillTableViewCell.m in Sources */,
 				F85969AD208F0BC2001CEBF7 /* UITableViewCell+HYBMasonryAutoCellHeight.m in Sources */,
 				F8B4AF4520C0DB79003DAFD4 /* FeeCollectionPlanViewController.m in Sources */,
 				F8B4AF7220C0DB79003DAFD4 /* RentPayListTableViewCell.m in Sources */,
+				F89E88D820CE17460033219C /* CreditRatingAddViewController.m in Sources */,
 				F8B4AF6520C0DB79003DAFD4 /* BusinessReceptionDetailTableViewCell.m in Sources */,
 				F8596996208F0BC2001CEBF7 /* CollectionViewCell.m in Sources */,
 				ECC4AEAC20CD27B8002BD906 /* OrderProgressInquiryTableViewCell.m in Sources */,
+				F89E88CF20CE17460033219C /* LivenessViewController.m in Sources */,
 				F8B4AF6020C0DB79003DAFD4 /* requestService.m in Sources */,
 				F8B4AF5020C0DB79003DAFD4 /* TaskViewController.m in Sources */,
 				F8B4AF6A20C0DB79003DAFD4 /* LeaseItemAddListTableViewCell.m in Sources */,
 				F8B4AF1020C0DB79003DAFD4 /* FormsCommonCellModel.m in Sources */,
+				F89E88D720CE17460033219C /* ConstructionMachineryViewController.m in Sources */,
+				F89E88CD20CE17460033219C /* CircleView.m in Sources */,
 				F8B4AF4720C0DB79003DAFD4 /* QBaseInfoViewController.m in Sources */,
 				ECC4AEC120CD2D50002BD906 /* litigationProgressDetailViewController.m in Sources */,
 				F8B4AF4C20C0DB79003DAFD4 /* RDVTabBar.m in Sources */,
@@ -3391,10 +3481,9 @@
 				F8B4AF4B20C0DB79003DAFD4 /* RentPayListViewController.m in Sources */,
 				ECC4AEBB20CD298A002BD906 /* litigationProgressInquiryModel.m in Sources */,
 				F8B4AF5920C0DB79003DAFD4 /* FromsDisplayInfoTableViewCell.m in Sources */,
+				F89E88C720CE17460033219C /* ZXDataUploadViewController.m in Sources */,
 				F8B4AF0E20C0DB79003DAFD4 /* NewCreditPendingModel.m in Sources */,
-				F8B4AF2320C0DB79003DAFD4 /* AgriculturalquipmentAddViewController.m in Sources */,
 				F8B4AF2E20C0DB79003DAFD4 /* LoanApprovalViewController.m in Sources */,
-				ECC4AEF620CD5BC3002BD906 /* RentalPaymentTable10Model.m in Sources */,
 				F8B4AF7420C0DB79003DAFD4 /* TaskTableViewCell.m in Sources */,
 				F8B4AF3D20C0DB79003DAFD4 /* NoticeModel.m in Sources */,
 				F85969C0208F0BC3001CEBF7 /* LTSCircleView.m in Sources */,
@@ -3405,7 +3494,7 @@
 				F8B4AF4620C0DB79003DAFD4 /* NewFeeCollectionPlanViewController.m in Sources */,
 				F8B4AF4320C0DB79003DAFD4 /* NewMarginChargePlanViewController.m in Sources */,
 				F8B4AF6D20C0DB79003DAFD4 /* PageFirstIndex1TableViewCell.m in Sources */,
-				F8B4AF2520C0DB79003DAFD4 /* RentalPaymentTableAddViewController.m in Sources */,
+				F89E88D220CE17460033219C /* ZXContractSignViewController.m in Sources */,
 				F859692A208F0BC2001CEBF7 /* UIButton+XYButton.m in Sources */,
 				ECC4AEDD20CD4D7E002BD906 /* CuishouProgressInAddViewController.m in Sources */,
 				F8B4AF5A20C0DB79003DAFD4 /* FromsDisplayTableViewCell.m in Sources */,
@@ -3413,14 +3502,15 @@
 				ECC4AEEB20CD5B26002BD906 /* RentalPaymentTable20TableViewCell.m in Sources */,
 				F8B4AF4120C0DB79003DAFD4 /* TestBaiDuViewController.m in Sources */,
 				F8B4AF7720C0DB79003DAFD4 /* PostSign2TableViewCell.m in Sources */,
+				F89E88D320CE17460033219C /* GuarantorAddViewController.m in Sources */,
 				F8B4AF1320C0DB79003DAFD4 /* MarginChargePlanModel.m in Sources */,
 				F8B4AF3720C0DB79003DAFD4 /* MsgDetailTableViewCell.m in Sources */,
 				EC0D562620C3ECC700D3A3E9 /* GuarantorListTableViewCell.m in Sources */,
 				F8B4AF0F20C0DB79003DAFD4 /* LeaseItemAddListModel.m in Sources */,
 				F84D0A2F20C4C20900C9F77F /* ZXContractPreviewTableViewCell.m in Sources */,
 				F8B4AF3B20C0DB79003DAFD4 /* MsgTableViewCell.m in Sources */,
-				ECC4AEF020CD5BB0002BD906 /* RentalPaymentTable00Model.m in Sources */,
 				F8B4AF3E20C0DB79003DAFD4 /* NoticeTableViewCell.m in Sources */,
+				F89E88DA20CE17460033219C /* ZXConstructionMachineryViewController.m in Sources */,
 				F8B4AF1820C0DB79003DAFD4 /* WorkIndexModel.m in Sources */,
 				F85969C1208F0BC3001CEBF7 /* UITextView+placeholder.m in Sources */,
 				F85969BE208F0BC3001CEBF7 /* LTSCalendarViewController.m in Sources */,
@@ -3434,27 +3524,24 @@
 				F8B4AF1420C0DB79003DAFD4 /* QuotationIndex2Model.m in Sources */,
 				F8B4AF5420C0DB79003DAFD4 /* DailyRecordAddViewController.m in Sources */,
 				F8B4AF4820C0DB79003DAFD4 /* QBZJViewController.m in Sources */,
-				F84D0A1D20C4BDD200C9F77F /* ZXContractCategoryViewController.m in Sources */,
 				F8B4AF0A20C0DB79003DAFD4 /* BusinessReceptionDetailModel.m in Sources */,
 				ECC4AF0320CD8379002BD906 /* DealerAccessPendingModel.m in Sources */,
 				F868888720916B74008A2075 /* AppDelegate+NetworkStatusService.m in Sources */,
-				F8B4AF2120C0DB79003DAFD4 /* GuarantorAddViewController.m in Sources */,
-				ECC4AEF920CD5BCB002BD906 /* RentalPaymentTable20Model.m in Sources */,
 				F8B4AF0920C0DB79003DAFD4 /* BusinessReceptionListModel.m in Sources */,
 				F8617AB420A2754B0078A9DD /* LYSSlideMenuController.m in Sources */,
 				F8B4AF2A20C0DB79003DAFD4 /* CustomerManagementHomeViewController.m in Sources */,
-				F8B4AF2020C0DB79003DAFD4 /* TransactionConditionsAddViewController.m in Sources */,
 				F8B4AF4020C0DB79003DAFD4 /* PageFirstIndexViewController.m in Sources */,
 				F84D0A2C20C4C1B700C9F77F /* ZXContractPreviewModel.m in Sources */,
 				F8EF112620A3DD31007DFBAA /* UIView+SGExtension.m in Sources */,
 				F8B4AF6F20C0DB79003DAFD4 /* QuotationIndex1TableViewCell.m in Sources */,
 				F8B4AF4A20C0DB79003DAFD4 /* QuoteHistoryViewController.m in Sources */,
+				F89E88CE20CE17460033219C /* FaceBaseViewController.m in Sources */,
 				F8B4AF5620C0DB79003DAFD4 /* DailyRecordListViewController.m in Sources */,
 				F8B4AF0B20C0DB79003DAFD4 /* ApprovalRecordModel.m in Sources */,
+				F89E88CB20CE17460033219C /* ZXContractDetailViewController.m in Sources */,
 				F8B4AF7120C0DB79003DAFD4 /* QuoteHistoryTableViewCell.m in Sources */,
 				F8B4AF5E20C0DB79003DAFD4 /* MyController.m in Sources */,
 				ECC4AEE020CD4FAE002BD906 /* CuishouProgressInquiryContionViewController.m in Sources */,
-				F8B4AF2620C0DB79003DAFD4 /* CreditRatingAddViewController.m in Sources */,
 				F8B4AF7320C0DB79003DAFD4 /* WorkIndexTableViewCell.m in Sources */,
 				F8B4AF4220C0DB79003DAFD4 /* MarginChargePlanViewController.m in Sources */,
 				F8B4AF6E20C0DB79003DAFD4 /* MarginChargePlanTableViewCell.m in Sources */,
@@ -3462,11 +3549,15 @@
 				F8B4AF0D20C0DB79003DAFD4 /* LoanApprovalListModel.m in Sources */,
 				F85965CB208F0524001CEBF7 /* AppDelegate.m in Sources */,
 				EC0D562220C3EC3800D3A3E9 /* GuarantorListModel.m in Sources */,
+				F89E88CA20CE17460033219C /* ZXContractCategoryViewController.m in Sources */,
+				F89E88D420CE17460033219C /* GuarantorListViewController.m in Sources */,
 				ECC4AE9A20CD1BE9002BD906 /* LoanProgressInquiryTableViewCell.m in Sources */,
 				ECC4AE7020CD14D2002BD906 /* BusinessAccountIndexViewController.m in Sources */,
+				F89E887420CDFE180033219C /* RentalPaymentTable00Model.m in Sources */,
 				F85F28B820C12435004D661D /* FromsFillInfoTableViewCell.m in Sources */,
 				ECC4AEBE20CD2997002BD906 /* litigationProgressInquiryTableViewCell.m in Sources */,
 				F85969BC208F0BC3001CEBF7 /* LTSCalendarManager.m in Sources */,
+				F89E887720CDFE220033219C /* RentalPaymentTable10Model.m in Sources */,
 				F8B4AF0C20C0DB79003DAFD4 /* CustomerManagementHomeModel.m in Sources */,
 				F8B4AF2D20C0DB79003DAFD4 /* CreditInitiationViewController.m in Sources */,
 				F8B4AF3820C0DB79003DAFD4 /* MsgDetailViewController.m in Sources */,
@@ -3480,6 +3571,7 @@
 				F8B4AF3F20C0DB79003DAFD4 /* NoticeViewController.m in Sources */,
 				F8B4AF0820C0DB79003DAFD4 /* BusinessIndexModel.m in Sources */,
 				F8B4AF2C20C0DB79003DAFD4 /* PublicCustomersViewController.m in Sources */,
+				F89E887A20CDFE2A0033219C /* RentalPaymentTable20Model.m in Sources */,
 				ECC4AEC520CD326A002BD906 /* TrailerProgressInquiryViewController.m in Sources */,
 				F8B4AF6B20C0DB79003DAFD4 /* ImmediateApprovalTableViewCell.m in Sources */,
 				F8B4AF1120C0DB79003DAFD4 /* PageFirstIndex0Model.m in Sources */,
@@ -3636,6 +3728,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Libs/HTSB",
 				);
 				GCC_PREFIX_HEADER = LOVOL/PrefixHeader.pch;
 				INFOPLIST_FILE = LOVOL/Info.plist;
@@ -3667,6 +3760,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Libs/HTSB",
 				);
 				GCC_PREFIX_HEADER = LOVOL/PrefixHeader.pch;
 				INFOPLIST_FILE = LOVOL/Info.plist;

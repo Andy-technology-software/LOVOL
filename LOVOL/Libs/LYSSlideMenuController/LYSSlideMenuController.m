@@ -113,7 +113,6 @@ typedef NS_ENUM(NSUInteger, LYSScrollViewType) {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
-    
     [self customBaseView];
     [self customTopView];
     [self customBottomView];

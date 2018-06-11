@@ -12,29 +12,7 @@
 
 #import "BusinessReceptionListTableViewCell.h"
 
-#import "ImmediateApprovalViewController.h"//立即审批
-
-#import "BusinessReceptionDetailViewController.h"//业务受理详情
-
-#import "TransactionConditionsAddViewController.h"//资信成交条件新增
-
-#import "LeaseItemAddViewController.h"//资信租赁物新增
-
-#import "RentalPaymentTableAddViewController.h"//资信租金支付表新增
-
-#import "GuarantorListViewController.h"//资信担保人新增
-
-#import "CreditRatingAddViewController.h"//资信担保人列表
-
-#import "ZXContractCategoryViewController.h"//资信合同类别
-
-#import "ZXDataUploadViewController.h"//资信资料上传
-
-#import "ZXContractPreviewViewController.h"//资信合同预览
-
-#import "ZXContractSignViewController.h"//资信合同面签
-
-#import "LYSSlideMenuController.h"
+#import "BusinessReceptionDetailViewController.h"
 @interface BusinessReceptionListViewController ()<UITableViewDelegate,UITableViewDataSource> {
     LYSSlideMenuController *slideMenu;
 }
@@ -138,56 +116,8 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-//    BusinessReceptionDetailViewController* vc = [[BusinessReceptionDetailViewController alloc] init];
-//    vc.title = @"业务待办详情";
-//    [self.navigationController pushViewController:vc animated:YES];
-    
-    
-    slideMenu = [[LYSSlideMenuController alloc] init];
-    UIButton* rightButton1 = [[UIButton alloc]initWithFrame:CGRectMake(0,0,40,25)];
-    [rightButton1 setTitle:@"历史" forState:UIControlStateNormal];
-    rightButton1.titleLabel.font = [UIFont systemFontOfSize:13];
-    [rightButton1 setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-    
-    [rightButton1 addTarget:self action:@selector(saveQuotationClick)forControlEvents:UIControlEventTouchUpInside];
-    UIBarButtonItem*rightItem1 = [[UIBarButtonItem alloc] initWithCustomView:rightButton1];
-    slideMenu.navigationItem.rightBarButtonItem = rightItem1;
-    
-//    UIButton* saveBtn = [MyController createButtonWithFrame:CGRectMake(0, CGRectGetMaxY(slideMenu.view.frame), [MyController getScreenWidth], 50) ImageName:nil Target:self Action:@selector(saveBtnClick) Title:@"立即审批"];
-//    [saveBtn setBackgroundColor:[MyController colorWithHexString:CNavBgColor]];
-//    [saveBtn setTitleColor:[MyController colorWithHexString:CDefaultColor] forState:UIControlStateNormal];
-//    saveBtn.titleLabel.font = [UIFont systemFontOfSize:14];
-//    [slideMenu.view addSubview:saveBtn];
-    
-    slideMenu.title = @"业务受理-详情";
-    slideMenu.isShowLiftBack = YES;
-    TransactionConditionsAddViewController *oneVC = [[TransactionConditionsAddViewController alloc] init];
-    LeaseItemAddViewController *twoVC = [[LeaseItemAddViewController alloc] init];
-    RentalPaymentTableAddViewController *threeVC = [[RentalPaymentTableAddViewController alloc] init];
-    GuarantorListViewController *fourVC = [[GuarantorListViewController alloc] init];
-    CreditRatingAddViewController *fiveVC = [[CreditRatingAddViewController alloc] init];
-    //            ZXContractCategoryViewController *sixVC = [[ZXContractCategoryViewController alloc] init];
-    ZXDataUploadViewController *sevVC = [[ZXDataUploadViewController alloc] init];
-    ZXContractPreviewViewController *eigVC = [[ZXContractPreviewViewController alloc] init];
-    ZXContractSignViewController *nineVC = [[ZXContractSignViewController alloc] init];
-    
-    
-    slideMenu.controllers = @[oneVC,twoVC,threeVC,fourVC,fiveVC,sevVC,eigVC,nineVC];
-    slideMenu.titles = @[@"成交条件",@"租赁物维护",@"租金支付表",@"担保人信息",@"资信评级",@"资料上传",@"合同预览",@"合同面签"];
-    slideMenu.pageNumberOfItem = 4;
-    slideMenu.bottomLineWidth = 60;
-    slideMenu.bottomLineHeight = 2;
-    slideMenu.bottomLineColor = [MyController colorWithHexString:CNavBgColor];
-    slideMenu.titleColor = [MyController colorWithHexString:@"9d9ea3"];
-    slideMenu.titleSelectColor = [MyController colorWithHexString:CNavBgColor];
-    [[self rdv_tabBarController] setTabBarHidden:YES animated:YES];
-    [self.navigationController pushViewController:slideMenu animated:YES];
-}
-
-#pragma mark - 立即审批
-- (void)saveBtnClick {
-    ImmediateApprovalViewController* vc = [[ImmediateApprovalViewController alloc] init];
-    vc.title = @"审批";
+    BusinessReceptionDetailViewController* vc = [[BusinessReceptionDetailViewController alloc] init];
+    vc.title = @"业务待办详情";
     [self.navigationController pushViewController:vc animated:YES];
 }
 
