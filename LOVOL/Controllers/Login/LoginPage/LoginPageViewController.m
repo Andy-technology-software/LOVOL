@@ -34,6 +34,29 @@
  创建登录页面
  */
 - (void)makeUI {
+    UIImageView* bIV = [MyController createImageViewWithFrame:self.view.frame ImageName:@"bg"];
+    [self.view addSubview:bIV];
+    
+    UIImageView* bIV1 = [MyController createImageViewWithFrame:self.view.frame ImageName:@"logo"];
+    [self.view addSubview:bIV1];
+    
+    [bIV1 mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.centerX.mas_equalTo(self.view.mas_centerX);
+        make.top.mas_equalTo(100);
+        make.width.mas_offset(266);
+        make.height.mas_offset(50);
+    }];
+    
+    UIImageView* bIV2 = [MyController createImageViewWithFrame:self.view.frame ImageName:@"建筑"];
+    [self.view addSubview:bIV2];
+    
+    [bIV2 mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.centerX.mas_equalTo(self.view.mas_centerX);
+        make.bottom.mas_equalTo(-60);
+        make.width.mas_offset(300);
+        make.height.mas_offset(241);
+    }];
+    
     self.pwLine = [MyController viewWithFrame:self.view.frame];
     self.pwLine.backgroundColor = [UIColor whiteColor];
     [self.view addSubview:self.pwLine];
@@ -61,14 +84,14 @@
         make.height.mas_offset(30);
     }];
     
-    self.pwIV = [MyController createImageViewWithFrame:self.view.frame ImageName:@"个人中心-选中"];
+    self.pwIV = [MyController createImageViewWithFrame:self.view.frame ImageName:@"密码"];
     [self.view addSubview:self.pwIV];
     
     [self.pwIV mas_makeConstraints:^(MASConstraintMaker *make) {
         make.right.mas_equalTo(self.pwTF.mas_left).mas_offset(-12);
         make.centerY.mas_equalTo(self.pwTF.mas_centerY);
-        make.height.mas_offset(16);
-        make.width.mas_offset(16);
+        make.height.mas_offset(22);
+        make.width.mas_offset(22);
     }];
     
     
@@ -99,14 +122,14 @@
         make.height.mas_offset(30);
     }];
     
-    self.zhIV = [MyController createImageViewWithFrame:self.view.frame ImageName:@"个人中心-选中"];
+    self.zhIV = [MyController createImageViewWithFrame:self.view.frame ImageName:@"账号"];
     [self.view addSubview:self.zhIV];
     
     [self.zhIV mas_makeConstraints:^(MASConstraintMaker *make) {
         make.right.mas_equalTo(self.zhTF.mas_left).mas_offset(-12);
         make.centerY.mas_equalTo(self.zhTF.mas_centerY);
-        make.height.mas_offset(16);
-        make.width.mas_offset(16);
+        make.height.mas_offset(22);
+        make.width.mas_offset(22);
     }];
     
     self.loginBtn = [MyController createButtonWithFrame:self.view.frame ImageName:nil Target:self Action:@selector(loginBtnClick) Title:@"登录"];

@@ -245,6 +245,12 @@
 		F89E88D920CE17460033219C /* ZXAgriculturalMachineryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F89E88C320CE17460033219C /* ZXAgriculturalMachineryViewController.m */; };
 		F89E88DA20CE17460033219C /* ZXConstructionMachineryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F89E88C620CE17460033219C /* ZXConstructionMachineryViewController.m */; };
 		F89E88DE20CE18E60033219C /* BusinessReceptionDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F89E88DD20CE18E60033219C /* BusinessReceptionDetailViewController.m */; };
+		F89E88E520CE29CB0033219C /* 建筑@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F89E88DF20CE29C90033219C /* 建筑@2x.png */; };
+		F89E88E620CE29CB0033219C /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F89E88E020CE29C90033219C /* logo@2x.png */; };
+		F89E88E720CE29CB0033219C /* logo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F89E88E120CE29CA0033219C /* logo@3x.png */; };
+		F89E88E820CE29CB0033219C /* bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F89E88E220CE29CA0033219C /* bg@2x.png */; };
+		F89E88E920CE29CB0033219C /* bg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F89E88E320CE29CA0033219C /* bg@3x.png */; };
+		F89E88EA20CE29CB0033219C /* 建筑@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F89E88E420CE29CB0033219C /* 建筑@3x.png */; };
 		F8B4AF0820C0DB79003DAFD4 /* BusinessIndexModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B4ADB220C0DB78003DAFD4 /* BusinessIndexModel.m */; };
 		F8B4AF0920C0DB79003DAFD4 /* BusinessReceptionListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B4ADB620C0DB78003DAFD4 /* BusinessReceptionListModel.m */; };
 		F8B4AF0A20C0DB79003DAFD4 /* BusinessReceptionDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B4ADB920C0DB78003DAFD4 /* BusinessReceptionDetailModel.m */; };
@@ -742,6 +748,12 @@
 		F89E88C620CE17460033219C /* ZXConstructionMachineryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXConstructionMachineryViewController.m; sourceTree = "<group>"; };
 		F89E88DC20CE18E60033219C /* BusinessReceptionDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessReceptionDetailViewController.h; sourceTree = "<group>"; };
 		F89E88DD20CE18E60033219C /* BusinessReceptionDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessReceptionDetailViewController.m; sourceTree = "<group>"; };
+		F89E88DF20CE29C90033219C /* 建筑@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "建筑@2x.png"; sourceTree = "<group>"; };
+		F89E88E020CE29C90033219C /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
+		F89E88E120CE29CA0033219C /* logo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@3x.png"; sourceTree = "<group>"; };
+		F89E88E220CE29CA0033219C /* bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg@2x.png"; sourceTree = "<group>"; };
+		F89E88E320CE29CA0033219C /* bg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg@3x.png"; sourceTree = "<group>"; };
+		F89E88E420CE29CB0033219C /* 建筑@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "建筑@3x.png"; sourceTree = "<group>"; };
 		F8B4ADB120C0DB78003DAFD4 /* BusinessIndexModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessIndexModel.h; sourceTree = "<group>"; };
 		F8B4ADB220C0DB78003DAFD4 /* BusinessIndexModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessIndexModel.m; sourceTree = "<group>"; };
 		F8B4ADB520C0DB78003DAFD4 /* BusinessReceptionListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessReceptionListModel.h; sourceTree = "<group>"; };
@@ -1365,6 +1377,12 @@
 		F855CA9420ABAE11001FC23E /* ios */ = {
 			isa = PBXGroup;
 			children = (
+				F89E88DF20CE29C90033219C /* 建筑@2x.png */,
+				F89E88E420CE29CB0033219C /* 建筑@3x.png */,
+				F89E88E220CE29CA0033219C /* bg@2x.png */,
+				F89E88E320CE29CA0033219C /* bg@3x.png */,
+				F89E88E020CE29C90033219C /* logo@2x.png */,
+				F89E88E120CE29CA0033219C /* logo@3x.png */,
 				ECC4AE8120CD1A06002BD906 /* 催收进度查询@2x.png */,
 				ECC4AE7B20CD1A05002BD906 /* 催收进度查询@3x.png */,
 				ECC4AE8220CD1A06002BD906 /* 订单进度查询@2x.png */,
@@ -3177,9 +3195,12 @@
 				ECC4AE8C20CD1A06002BD906 /* 订单进度查询@2x.png in Resources */,
 				F855CB5D20ABC738001FC23E /* 工作@3x.png in Resources */,
 				ECC4AE8920CD1A06002BD906 /* 放款进度查询@2x.png in Resources */,
+				F89E88E820CE29CB0033219C /* bg@2x.png in Resources */,
 				F855CAF620ABAE11001FC23E /* 关于我们@2x.png in Resources */,
+				F89E88E920CE29CB0033219C /* bg@3x.png in Resources */,
 				EC08604420C43F6B007504D9 /* 退出登录@2x.png in Resources */,
 				F89E886B20CDFCA10033219C /* com.baidu.idl.face.model.bundle in Resources */,
+				F89E88E620CE29CB0033219C /* logo@2x.png in Resources */,
 				F84D0A5E20C4DD8D00C9F77F /* 删除@3x.png in Resources */,
 				F855CAFE20ABAE11001FC23E /* 密码重置@2x.png in Resources */,
 				F84D0A6020C4DD8D00C9F77F /* 新增添加@2x.png in Resources */,
@@ -3190,6 +3211,7 @@
 				F84D0A5C20C4DD8D00C9F77F /* 新增@3x.png in Resources */,
 				F855CB0D20ABAE11001FC23E /* 必填@3x.png in Resources */,
 				ECC4AE8E20CD1A06002BD906 /* 诉讼进度查询@2x.png in Resources */,
+				F89E88E720CE29CB0033219C /* logo@3x.png in Resources */,
 				F84D0A5A20C4DD8D00C9F77F /* OCR@3x.png in Resources */,
 				F84D0A5920C4DD8D00C9F77F /* 新增添加@3x.png in Resources */,
 				F855CB5620ABC738001FC23E /* 报价-触发@3x.png in Resources */,
@@ -3219,6 +3241,7 @@
 				F8EF113720A3E400007DFBAA /* 返回-白@2x.png in Resources */,
 				F84D0A6F20C4E23900C9F77F /* 客户编辑@3x.png in Resources */,
 				F855CB2E20ABAE11001FC23E /* 管理报表@3x.png in Resources */,
+				F89E88EA20CE29CB0033219C /* 建筑@3x.png in Resources */,
 				F855CB0C20ABAE11001FC23E /* 必填@2x.png in Resources */,
 				F855CB5B20ABC738001FC23E /* 工作@2x.png in Resources */,
 				F84D0A5620C4DD8D00C9F77F /* 历史记录@3x.png in Resources */,
@@ -3262,6 +3285,7 @@
 				F855CAE820ABAE11001FC23E /* 业务-信息提醒@2x.png in Resources */,
 				F855CB2A20ABAE11001FC23E /* 登录.png in Resources */,
 				F855CB1D20ABAE11001FC23E /* 放款审批@3x.png in Resources */,
+				F89E88E520CE29CB0033219C /* 建筑@2x.png in Resources */,
 				F855CB1920ABAE11001FC23E /* 报岗@3x.png in Resources */,
 				F855CB5C20ABC738001FC23E /* 首页@2x.png in Resources */,
 				F84D0A5720C4DD8D00C9F77F /* OCR@2x.png in Resources */,
@@ -3721,7 +3745,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-1";
-				CODE_SIGN_IDENTITY = "iPhone Developer: shunyu liu (9YT8U9G7GT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Foton Lovol International Heavy Industry Co., Ltd.";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = VM4P72727W;
 				ENABLE_BITCODE = NO;
@@ -3741,8 +3765,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lovol.huiyinfinancialApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "1c98c402-a250-4e32-95cb-89d7af112960";
-				PROVISIONING_PROFILE_SPECIFIER = com.andy.huiyinfinancialAppDev;
+				PROVISIONING_PROFILE = "711662d2-fae1-4da4-a844-7b4e048d88f6";
+				PROVISIONING_PROFILE_SPECIFIER = com.andy.huiyinAPPInHose;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -3753,7 +3777,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-1";
-				CODE_SIGN_IDENTITY = "iPhone Developer: shunyu liu (9YT8U9G7GT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Foton Lovol International Heavy Industry Co., Ltd.";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = VM4P72727W;
 				ENABLE_BITCODE = NO;
@@ -3773,8 +3797,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lovol.huiyinfinancialApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "1c98c402-a250-4e32-95cb-89d7af112960";
-				PROVISIONING_PROFILE_SPECIFIER = com.andy.huiyinfinancialAppDev;
+				PROVISIONING_PROFILE = "711662d2-fae1-4da4-a844-7b4e048d88f6";
+				PROVISIONING_PROFILE_SPECIFIER = com.andy.huiyinAPPInHose;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

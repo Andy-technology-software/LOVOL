@@ -43,9 +43,13 @@
         NSAttributedString *attString = [[NSAttributedString alloc] initWithString:title attributes:@{NSForegroundColorAttributeName : [MyController colorWithHexString:CFontColor0]}];
         return attString;
     }];
-    [self.segmentedControl addTarget:self action:@selector(segmentedControlChangedValue:) forControlEvents:UIControlEventValueChanged];
+//    [self.segmentedControl addTarget:self action:@selector(segmentedControlChangedValue:) forControlEvents:UIControlEventValueChanged];
     [self.view addSubview:self.segmentedControl];
     
+    __weak typeof(self) weakSelf = self;
+    [self.segmentedControl setIndexChangeBlock:^(NSInteger index) {
+        [weakSelf.scrollView scrollRectToVisible:CGRectMake([MyController getScreenWidth] * index, 40, [MyController getScreenWidth], [MyController getScreenHeight] - [MyController isIOS7] - 40 - 40) animated:YES];
+    }];
     
     self.scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 40, viewWidth, [MyController getScreenHeight] - [MyController isIOS7] - 40 - 40)];
     self.scrollView.backgroundColor = [MyController colorWithHexString:CLineColor];

@@ -24,7 +24,17 @@
 @property(nonatomic,strong)NSMutableArray* dataArr2;
 @property(nonatomic,strong)NSMutableArray* dataArr3;
 @property(nonatomic,strong)NSMutableArray* dataArr4;
+@property(nonatomic,strong)NSMutableArray* dataArrTem0;
+@property(nonatomic,strong)NSMutableArray* dataArrTem1;
+@property(nonatomic,strong)NSMutableArray* dataArrTem2;
+@property(nonatomic,strong)NSMutableArray* dataArrTem3;
+@property(nonatomic,strong)NSMutableArray* dataArrTem4;
 @property(nonatomic,assign)BOOL isNotFirstIncome;//是不是第一次进页面
+@property(nonatomic,assign)BOOL isDataArr0;
+@property(nonatomic,assign)BOOL isDataArr1;
+@property(nonatomic,assign)BOOL isDataArr2;
+@property(nonatomic,assign)BOOL isDataArr3;
+@property(nonatomic,assign)BOOL isDataArr4;
 
 @end
 
@@ -64,6 +74,7 @@
     self.dataArr2 = [[NSMutableArray alloc] init];
     self.dataArr3 = [[NSMutableArray alloc] init];
     self.dataArr4 = [[NSMutableArray alloc] init];
+    self.isDataArr0 = YES;
     //1是填的   2是选的
     self.typeArr0 = [[NSArray alloc] initWithObjects:@"1",@"2",@"1",@"1",@"2",@"2",@"1",@"1",@"1",@"1",@"2",@"2",@"1",@"1",@"2", nil];
     self.typeArr1 = [[NSArray alloc] initWithObjects:@"1",@"2",@"1",@"1",@"2",@"2",@"1",@"1",@"1",@"1",@"2",@"2",@"1",@"1",@"2", nil];
@@ -187,15 +198,30 @@
 #pragma mark -  tableView delegate
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     if (0 == section) {
-        return self.dataArr0.count;
+        if (self.isDataArr0) {
+            return self.dataArr0.count;
+        }
+        return self.dataArrTem0.count;
     }else if (1 == section) {
-        return self.dataArr1.count;
+        if (self.isDataArr1) {
+            return self.dataArr1.count;
+        }
+        return self.dataArrTem1.count;
     }else if (2 == section) {
-        return self.dataArr2.count;
+        if (self.isDataArr2) {
+            return self.dataArr2.count;
+        }
+        return self.dataArrTem2.count;
     }else if (3 == section) {
-        return self.dataArr3.count;
+        if (self.isDataArr3) {
+            return self.dataArr3.count;
+        }
+        return self.dataArrTem3.count;
     }
-    return self.dataArr4.count;
+    if (self.isDataArr4) {
+        return self.dataArr4.count;
+    }
+    return self.dataArrTem4.count;
     
 }
 
@@ -203,23 +229,43 @@
     FormsCommonCellModel *model = nil;
     if (0 == indexPath.section) {
         if (indexPath.row < self.dataArr0.count) {
-            model = [self.dataArr0 objectAtIndex:indexPath.row];
+            if (self.isDataArr0) {
+                model = [self.dataArr0 objectAtIndex:indexPath.row];
+            }else {
+                model = [self.dataArrTem0 objectAtIndex:indexPath.row];
+            }
         }
     }else if (1 == indexPath.section) {
         if (indexPath.row < self.dataArr1.count) {
-            model = [self.dataArr1 objectAtIndex:indexPath.row];
+            if (self.isDataArr1) {
+                model = [self.dataArr1 objectAtIndex:indexPath.row];
+            }else {
+                model = [self.dataArrTem1 objectAtIndex:indexPath.row];
+            }
         }
     }else if (2 == indexPath.section) {
         if (indexPath.row < self.dataArr2.count) {
-            model = [self.dataArr2 objectAtIndex:indexPath.row];
+            if (self.isDataArr2) {
+                model = [self.dataArr2 objectAtIndex:indexPath.row];
+            }else {
+                model = [self.dataArrTem2 objectAtIndex:indexPath.row];
+            }
         }
     }else if (3 == indexPath.section) {
         if (indexPath.row < self.dataArr3.count) {
-            model = [self.dataArr3 objectAtIndex:indexPath.row];
+            if (self.isDataArr3) {
+                model = [self.dataArr3 objectAtIndex:indexPath.row];
+            }else {
+                model = [self.dataArrTem3 objectAtIndex:indexPath.row];
+            }
         }
     }else if (4 == indexPath.section) {
         if (indexPath.row < self.dataArr4.count) {
-            model = [self.dataArr4 objectAtIndex:indexPath.row];
+            if (self.isDataArr4) {
+                model = [self.dataArr4 objectAtIndex:indexPath.row];
+            }else {
+                model = [self.dataArrTem4 objectAtIndex:indexPath.row];
+            }
         }
     }
     
@@ -236,13 +282,23 @@
             cell0.selectionStyle = UITableViewCellSelectionStyleNone;
             cell0.FromsFillTableViewCellDelegate = self;
             cell0.rowIndex = indexPath.row;
-            FormsCommonCellModel* model = self.dataArr0[indexPath.row];
+            FormsCommonCellModel* model;
+            if (self.isDataArr0) {
+                model = self.dataArr0[indexPath.row];
+            }else {
+                model = self.dataArrTem0[indexPath.row];
+            }
             [cell0 configCellWithModel:model];
             return cell0;
         }
         FormsSelectedTableViewCell* cell0 = [[FormsSelectedTableViewCell alloc] init];
         cell0.selectionStyle = UITableViewCellSelectionStyleNone;
-        FormsCommonCellModel* model = self.dataArr0[indexPath.row];
+        FormsCommonCellModel* model;
+        if (self.isDataArr0) {
+            model = self.dataArr0[indexPath.row];
+        }else {
+            model = self.dataArrTem0[indexPath.row];
+        }
         [cell0 configCellWithModel:model];
         return cell0;
     }else if (1 == indexPath.section) {
@@ -251,13 +307,23 @@
             cell0.selectionStyle = UITableViewCellSelectionStyleNone;
             cell0.FromsFillTableViewCellDelegate = self;
             cell0.rowIndex = indexPath.row;
-            FormsCommonCellModel* model = self.dataArr1[indexPath.row];
+            FormsCommonCellModel* model;
+            if (self.isDataArr1) {
+                model = self.dataArr1[indexPath.row];
+            }else {
+                model = self.dataArrTem1[indexPath.row];
+            }
             [cell0 configCellWithModel:model];
             return cell0;
         }
         FormsSelectedTableViewCell* cell0 = [[FormsSelectedTableViewCell alloc] init];
         cell0.selectionStyle = UITableViewCellSelectionStyleNone;
-        FormsCommonCellModel* model = self.dataArr1[indexPath.row];
+        FormsCommonCellModel* model;
+        if (self.isDataArr1) {
+            model = self.dataArr1[indexPath.row];
+        }else {
+            model = self.dataArrTem1[indexPath.row];
+        }
         [cell0 configCellWithModel:model];
         return cell0;
     }else if (2 == indexPath.section) {
@@ -266,13 +332,23 @@
             cell0.selectionStyle = UITableViewCellSelectionStyleNone;
             cell0.FromsFillTableViewCellDelegate = self;
             cell0.rowIndex = indexPath.row;
-            FormsCommonCellModel* model = self.dataArr2[indexPath.row];
+            FormsCommonCellModel* model;
+            if (self.isDataArr2) {
+                model = self.dataArr2[indexPath.row];
+            }else {
+                model = self.dataArrTem2[indexPath.row];
+            }
             [cell0 configCellWithModel:model];
             return cell0;
         }
         FormsSelectedTableViewCell* cell0 = [[FormsSelectedTableViewCell alloc] init];
         cell0.selectionStyle = UITableViewCellSelectionStyleNone;
-        FormsCommonCellModel* model = self.dataArr2[indexPath.row];
+        FormsCommonCellModel* model;
+        if (self.isDataArr0) {
+            model = self.dataArr2[indexPath.row];
+        }else {
+            model = self.dataArrTem2[indexPath.row];
+        }
         [cell0 configCellWithModel:model];
         return cell0;
     }else if (3 == indexPath.section) {
@@ -281,7 +357,12 @@
             cell0.selectionStyle = UITableViewCellSelectionStyleNone;
             cell0.FromsFillTableViewCellDelegate = self;
             cell0.rowIndex = indexPath.row;
-            FormsCommonCellModel* model = self.dataArr3[indexPath.row];
+            FormsCommonCellModel* model;
+            if (self.isDataArr3) {
+                model = self.dataArr3[indexPath.row];
+            }else {
+                model = self.dataArr3[indexPath.row];
+            }
             [cell0 configCellWithModel:model];
             return cell0;
         }
@@ -296,13 +377,23 @@
             cell0.selectionStyle = UITableViewCellSelectionStyleNone;
             cell0.FromsFillTableViewCellDelegate = self;
             cell0.rowIndex = indexPath.row;
-            FormsCommonCellModel* model = self.dataArr4[indexPath.row];
+            FormsCommonCellModel* model;
+            if (self.isDataArr4) {
+                model = self.dataArr4[indexPath.row];
+            }else {
+                model = self.dataArr4[indexPath.row];
+            }
             [cell0 configCellWithModel:model];
             return cell0;
         }
         FormsSelectedTableViewCell* cell0 = [[FormsSelectedTableViewCell alloc] init];
         cell0.selectionStyle = UITableViewCellSelectionStyleNone;
-        FormsCommonCellModel* model = self.dataArr4[indexPath.row];
+        FormsCommonCellModel* model;
+        if (self.isDataArr4) {
+            model = self.dataArr4[indexPath.row];
+        }else {
+            model = self.dataArr4[indexPath.row];
+        }
         [cell0 configCellWithModel:model];
         return cell0;
     }
@@ -343,7 +434,8 @@
         make.height.mas_offset(4);
     }];
     
-    UIButton* addMXBtn = [MyController createButtonWithFrame:headerV.frame ImageName:@"添加" Target:self Action:@selector(addMXBtnClick) Title:nil];
+    UIButton* addMXBtn = [MyController createButtonWithFrame:headerV.frame ImageName:@"更多" Target:self Action:@selector(addMXBtnClick:) Title:nil];
+    addMXBtn.tag = 100 + section;
     [headerV addSubview:addMXBtn];
     
     [addMXBtn mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -352,6 +444,10 @@
         make.width.mas_offset(20);
         make.height.mas_offset(20);
     }];
+    
+    UIButton* addMXBtn1 = [MyController createButtonWithFrame:headerV.frame ImageName:nil Target:self Action:@selector(addMXBtnClick:) Title:nil];
+    addMXBtn1.tag = 100 + section;
+    [headerV addSubview:addMXBtn1];
     
     return headerV;
 }
@@ -364,8 +460,23 @@
 /**
  新增还款明细
  */
-- (void)addMXBtnClick {
-    DLog(@"新增还款明细");
+- (void)addMXBtnClick:(UIButton*)btn {
+    if (100 == btn.tag) {
+        self.isDataArr0 = !self.isDataArr0;
+        [self.tableView reloadSections:[[NSIndexSet alloc]initWithIndex:0] withRowAnimation:UITableViewRowAnimationAutomatic];
+    }else if (101 == btn.tag) {
+        self.isDataArr1 = !self.isDataArr1;
+        [self.tableView reloadSections:[[NSIndexSet alloc]initWithIndex:1] withRowAnimation:UITableViewRowAnimationAutomatic];
+    }else if (102 == btn.tag) {
+        self.isDataArr2 = !self.isDataArr2;
+        [self.tableView reloadSections:[[NSIndexSet alloc]initWithIndex:2] withRowAnimation:UITableViewRowAnimationAutomatic];
+    }else if (103 == btn.tag) {
+        self.isDataArr3 = !self.isDataArr3;
+        [self.tableView reloadSections:[[NSIndexSet alloc]initWithIndex:3] withRowAnimation:UITableViewRowAnimationAutomatic];
+    }else if (104 == btn.tag) {
+        self.isDataArr4= !self.isDataArr4;
+        [self.tableView reloadSections:[[NSIndexSet alloc]initWithIndex:4] withRowAnimation:UITableViewRowAnimationAutomatic];
+    }
 }
 
 - (void)didReceiveMemoryWarning {

@@ -39,8 +39,8 @@
     if ([MyController returnStr:[MyController getUserid]].length) {
         [self setRootVC];
     }else {
-        [self setRootVC];
-//        [self setLoginRoot];
+//        [self setRootVC];
+        [self setLoginRoot];
     }
     
 }
