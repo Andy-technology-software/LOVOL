@@ -192,4 +192,5 @@
 + (UIImage *) scaleImage: (UIImage *)image scaleFactor:(float)scaleFloat;
 + (CGFloat)folderSize;
 + (void)removeCache;
++ (void)getuserId;
 @end

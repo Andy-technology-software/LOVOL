@@ -292,8 +292,11 @@
 }
 #pragma mark- 获取屏幕的高
 +(CGFloat)getScreenHeight{
-    
+    if (kDevice_Is_iPhoneX) {
+        return [UIScreen mainScreen].bounds.size.height - 34;
+    }
     return [UIScreen mainScreen].bounds.size.height;
+    
 }
 #pragma mark - 两个时间的前后
 +(int)compareOneDay:(NSDate *)oneDay withAnotherDay:(NSDate *)anotherDay
@@ -1311,6 +1314,7 @@
         }
     }
 }
+
 
 
 @end
