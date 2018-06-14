@@ -44,14 +44,17 @@
 
 +(void)postWithOldURLString:(NSString *)urlString params:(NSDictionary *)params  WithSuccess:(HttpSuccessBlock)success WithFailure:(HttpFailureBlock)failure{    
     [PPNetworkHelper POST:urlString parameters:params success:^(id responseObject) {
-        if ([responseObject[@"result"] intValue]) {
+        if (1 == [responseObject[@"code"] intValue]) {
             !success?:success(responseObject);
-        }else{
-            NSString *errStr = [responseObject objectForKey:@"error"];
-            NSDictionary *dic = [MyController dictionaryWithJsonString:errStr];
-            [HUD error:[dic objectForKey:@"errorInfo"]];
+        }else if (0 == [responseObject[@"code"] intValue]){
+            [HUD error:@"请求出错"];
+        }else if (11 == [responseObject[@"code"] intValue]){
+            [HUD error:@"没有更多数据"];
+        }else if (2 == [responseObject[@"code"] intValue]){
+            [HUD error:@"已在另一处登录"];
+        }else if (3 == [responseObject[@"code"] intValue]){
+            [HUD error:@"登录超时"];
         }
-        
     } failure:^(NSError *error) {
         [HUD warning:@"请检查网络连接"];
         [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:NO];

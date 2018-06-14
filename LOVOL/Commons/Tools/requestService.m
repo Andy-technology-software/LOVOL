@@ -13,16 +13,16 @@
 
 
 /**
- 1.1.1 首页
- 
- @param reqParam 某请求参数
+ 1.登录
+ @param userName 用户名
+ @param pw 密码
  @param complate 请求完成
  @param failure 请求失败
  */
-+(void)postHomepageWithReqParam:(NSString*)reqParam complate:(HttpSuccessBlock)complate failure:(HttpFailureBlock)failure {
-    NSString* path = [NSString stringWithFormat:@"%@",HOMEPAGE];
-    NSDictionary* param = @{@"reqParam":reqParam};
-    [XRQRequestClient postWithOldURLString:path params:param WithSuccess:^(id responseObject) {
++(void)postLoginWithUserName:(NSString*)userName pw:(NSString*)pw complate:(HttpSuccessBlock)complate failure:(HttpFailureBlock)failure {
+    NSString* path = HEADER1;
+    NSDictionary* cparam = @{@"url":@"/lbms/xcom/rbac/loginAction.do",@"method":@"post",@"params":@{@"loginName":userName,@"password":pw,@"rememberMe":@"false"}};
+    [XRQRequestClient postWithOldURLString:path params:cparam WithSuccess:^(id responseObject) {
         !complate?:complate(responseObject);
     } WithFailure:^(NSError *error) {
         !failure?:failure(error);

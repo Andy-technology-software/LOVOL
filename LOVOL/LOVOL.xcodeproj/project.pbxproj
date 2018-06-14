@@ -3745,7 +3745,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-1";
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Foton Lovol International Heavy Industry Co., Ltd.";
+				CODE_SIGN_IDENTITY = "iPhone Developer: shunyu liu (9YT8U9G7GT)";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = VM4P72727W;
 				ENABLE_BITCODE = NO;
@@ -3765,8 +3765,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lovol.huiyinfinancialApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "711662d2-fae1-4da4-a844-7b4e048d88f6";
-				PROVISIONING_PROFILE_SPECIFIER = com.andy.huiyinAPPInHose;
+				PROVISIONING_PROFILE = "1c98c402-a250-4e32-95cb-89d7af112960";
+				PROVISIONING_PROFILE_SPECIFIER = com.andy.huiyinfinancialAppDev;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -3777,7 +3777,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-1";
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Foton Lovol International Heavy Industry Co., Ltd.";
+				CODE_SIGN_IDENTITY = "iPhone Developer: shunyu liu (9YT8U9G7GT)";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = VM4P72727W;
 				ENABLE_BITCODE = NO;
@@ -3797,8 +3797,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lovol.huiyinfinancialApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "711662d2-fae1-4da4-a844-7b4e048d88f6";
-				PROVISIONING_PROFILE_SPECIFIER = com.andy.huiyinAPPInHose;
+				PROVISIONING_PROFILE = "1c98c402-a250-4e32-95cb-89d7af112960";
+				PROVISIONING_PROFILE_SPECIFIER = com.andy.huiyinfinancialAppDev;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

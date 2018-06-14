@@ -155,11 +155,7 @@
                                                to:nil
                                              from:nil
                                          forEvent:nil];
-//    [requestService postCityMemoryWithPageIndex:@"0" pageSize:@"10" year:@"1950" complate:^(id responseObject) {
-//        DLog(@"%@",responseObject[@"data"]);
-//    } failure:^(NSError *error) {
-//
-//    }];
+    
     if (![MyController returnStr:self.zhTF.text].length) {
         [HUD warning:@"请输入账号"];
         return;
@@ -168,11 +164,17 @@
         return;
     }
     
-    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-    [defaults setObject:self.pwTF.text forKey:@"SAVEDPASSWORD"];
-    [defaults setObject:self.zhTF.text forKey:@"SAVEDZHANGHAO"];
-    [defaults synchronize];
-    [(AppDelegate *)[UIApplication sharedApplication].delegate setRootVC];
+    [requestService postLoginWithUserName:self.zhTF.text pw:self.pwTF.text complate:^(id responseObject) {
+        NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+        [defaults setObject:self.pwTF.text forKey:@"SAVEDPASSWORD"];
+        [defaults setObject:self.zhTF.text forKey:@"SAVEDZHANGHAO"];
+        [defaults synchronize];
+        [(AppDelegate *)[UIApplication sharedApplication].delegate setRootVC];
+    } failure:^(NSError *error) {
+        
+    }];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
